@@ -2,39 +2,27 @@
 </section>
 
 <aside id="main-aside-wrapper">
-	<div id="interiorpagenav" class="grid-item<t4 type="navigation" name="Hide interiorpagenav" id="1083" />">
-		<div class="intro-grid-area-aside-navigation">
+  <div id="interiorpagenav" class="grid-item<t4 type="navigation" name="Hide interiorpagenav" id="1083" />">
+    <div class="intro-grid-area-aside-navigation">
       <div id="t4-navigation">
         <button class="t4-navigation-toggle-btn">In this section <i class="fa fa-chevron-right" aria-hidden="true"></i></button>
-
-          <nav class="t4-navigation-wrapper" aria-hidden="true">
-            <div class="animationOverlay"></div>
-            <t4 type="navigation" name="Return section name to the Interior Navigation" id="1105" />  
-            <t4 type="navigation" name="Get Right Col Menu for Universal Template" id="1043" />  	
-            <!-- <t4 type="navigation" name="Return children for Universal Template" id="1103" /> -->
-          </nav>
-
+        <nav class="t4-navigation-wrapper" aria-hidden="true">
+        <div class="animationOverlay"></div>
+        <t4 type="navigation" name="Return section name to the Interior Navigation" id="1105" />  
+        <t4 type="navigation" name="Get Right Col Menu for Universal Template" id="1043" />  	
+        <!-- <t4 type="navigation" name="Return children for Universal Template" id="1103" /> -->
+        </nav>
       </div>
-  	</div>
-    
-    <!--
-    <nav id="secondary">
-    	<t4 type="navigation" name="Get Right Col Menu for Universal Template" id="1043" />
-    </nav>
-		-->
+    </div>
   </div>
-<t4 type="navigation" name="Get Universal Template Aside Items" id="1066" />
+  <t4 type="navigation" name="Get Universal Template Aside Items" id="1066" />
 </aside>
-
 
 </div>
 
+  <!-- #social-icon-bar -->
+  <t4 type="navigation" id="1024"/>
 
-
-<!-- #social-icon-bar -->
-<t4 type="navigation" id="1024"/>
-
-	
   <footer id="footer-not-fixed">
     <div class="container-fluid p-0">
       <span id="brand"><a href="https://www.luc.edu/" title="Loyola University Chicago"><img src="<t4 type="media" id="626408" formatter="path/*"/>" alt="Loyola University Chicago logo in footer of site"></a></span>
@@ -47,52 +35,50 @@
 
   <footer id="footer-fixed">
     <div class="container-fluid p-0">
-    <span id="brand">
-    <a href="https://www.luc.edu/" title="Loyola University Chicago">
-    <img src="<t4 type="media" id="626408" formatter="path/*"/>" alt="Loyola University Chicago logo in footer of site">
-    </a>
-    </span>
-    <div id="footer-address" class="vcard">
-    <t4 type="navigation" name="Footer for Universal Template" id="1021" />
-    </div>
-    <p><span id="copyright"><a href="https://www.luc.edu/info/copyright_disclaimer.shtml" title="Copyright & Disclaimer 2023">&copy; Copyright &amp; Disclaimer 2023</a> &middot; <a href="https://www.luc.edu/its/aboutits/itspoliciesguidelines/privacypolicy/" title="Privacy Policy">Privacy Policy</a></span></p>
+      <span id="brand">
+        <a href="https://www.luc.edu/" title="Loyola University Chicago">
+        <img src="<t4 type="media" id="626408" formatter="path/*"/>" alt="Loyola University Chicago logo in footer of site">
+        </a>
+      </span>
+      <div id="footer-address" class="vcard">
+        <t4 type="navigation" name="Footer for Universal Template" id="1021" />
+      </div>
+      <p><span id="copyright"><a href="https://www.luc.edu/info/copyright_disclaimer.shtml" title="Copyright & Disclaimer 2023">&copy; Copyright &amp; Disclaimer 2023</a> &middot; <a href="https://www.luc.edu/its/aboutits/itspoliciesguidelines/privacypolicy/" title="Privacy Policy">Privacy Policy</a></span></p>
     </div>
   </footer>
 
 </main>
 
-<script>
-  $("ul#site-nav li:not(:has(ul.multilevel-linkul-0))").addClass('hassub');
-</script>
+  <script>
+    $("ul#site-nav li:not(:has(ul.multilevel-linkul-0))").addClass('hassub');
+  </script>
 
-<!-- inject:js -->
-
-<t4 type="navigation" name="Get Custom JS for Universal Template" id="1062" />
-<t4 type="navigation" name="Get Custom JS for Universal Template - Page Specific" id="1047" />
-
-<!-- endinject -->
+  <!-- inject:js -->
+  <t4 type="navigation" name="Get Custom JS for Universal Template" id="1062" />
+  <t4 type="navigation" name="Get Custom JS for Universal Template - Page Specific" id="1047" />
+  <!-- endinject -->
 
 </div>
 
-<!-- Client Tracking Tags Include-->
-<t4 type="media" id="382462" formatter="plain/text"/>
+  <!-- Client Tracking Tags Include-->
+  <t4 type="media" id="382462" formatter="plain/text"/>
 
-<!-- T4 - DEV bundle.js -->
-<script src="<t4 type='media' id='787038' formatter='path/*' />"></script>
-<!-- /T4 - DEV bundle.js -->
+  <!-- T4 - DEV bundle.js -->
+  <script src="<t4 type='media' id='787038' formatter='path/*' />"></script>
+  <!-- /T4 - DEV bundle.js -->
 
-<script src="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
-<script>
-  $('.slides').slick({
-    slidesToShow: 1,
-    dots: true,
-    infinite: true,
-    fade: true,
-    speed: 500,
-    arrows: true,
-    adaptiveHeight: false
-  }) 
-</script>
+  <script src="https://cdn.jsdelivr.net/jquery.slick/1.5.9/slick.min.js"></script>
+  <script>
+    $('.slides').slick({
+      slidesToShow: 1,
+      dots: true,
+      infinite: true,
+      fade: true,
+      speed: 500,
+      arrows: true,
+      adaptiveHeight: false
+    }) 
+  </script>
 
 </body>
 </html>

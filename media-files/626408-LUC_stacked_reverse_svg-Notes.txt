@@ -1,0 +1,10 @@
+Media ID: 626408
+File Name: LUC_stacked_reverse.svg
+
+Media Library Location:
+https://cms4.luc.edu/terminalfour/page/media#edit/626408/en
+
+Media Library >> Categorised >> luc-template-2020 >> images
+
+Referenced in Page Layout = Universal Template (footer)
+

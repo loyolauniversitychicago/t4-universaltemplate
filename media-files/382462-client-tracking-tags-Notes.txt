@@ -1,0 +1,10 @@
+Media ID: 382462
+File Name: client-tracking-tags.txt
+
+Media Library Location:
+https://cms4.luc.edu/terminalfour/page/media#edit/382462/en
+
+Media Library >> Categorised >> luc.edu >> Style Assets
+
+Referenced in Page Layout = Universal Template (footer)
+
