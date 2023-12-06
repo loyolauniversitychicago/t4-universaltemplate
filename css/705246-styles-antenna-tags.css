@@ -1,0 +1,97 @@
+/* antenna */
+
+@font-face {
+    font-family: "Antenna Light";
+    src: url("<t4 type="media" id="375116" formatter="path/*"/>");
+    src: url("<t4 type="media" id="375114" formatter="path/*"/>") format("embedded-opentype"),
+         url("<t4 type="media" id="375115" formatter="path/*"/>") format("woff"),
+         url("<t4 type="media" id="375113" formatter="path/*"/>") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "Antenna";
+    src: url("<t4 type="media" id="309115" formatter="path/*"/>");
+    src: url("<t4 type="media" id="309117" formatter="path/*"/>") format("embedded-opentype"),
+         url("<t4 type="media" id="309116" formatter="path/*"/>") format("woff"),
+         url("<t4 type="media" id="309118" formatter="path/*"/>") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "Antenna Bold";
+    src: url("<t4 type="media" id="375084" formatter="path/*"/>");
+    src: url("<t4 type="media" id="375082" formatter="path/*"/>") format("embedded-opentype"),
+         url("<t4 type="media" id="375083" formatter="path/*"/>") format("woff"),
+         url("<t4 type="media" id="375081" formatter="path/*"/>") format("truetype");
+      font-style: normal;
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "Antenna Black";
+    src: url("<t4 type="media" id="309109" formatter="path/*"/>");
+    src: url("<t4 type="media" id="309111" formatter="path/*"/>") format("embedded-opentype"),
+         url("<t4 type="media" id="309110" formatter="path/*"/>") format("woff"),
+         url("<t4 type="media" id="309112" formatter="path/*"/>") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  /* antenna condensed */
+  
+  @font-face {
+    font-family: "Antenna Condensed Light";
+    src: url("<t4 type="media" id="695552" formatter="path/*"/>");
+    src: url("<t4 type="media" id="695552" formatter="path/*"/>") format("embedded-opentype"),
+         url("<t4 type="media" id="695553" formatter="path/*"/>") format("woff"),
+         url("<t4 type="media" id="695554" formatter="path/*"/>") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "Antenna Condensed Bold";
+    src: url("<t4 type="media" id="695557" formatter="path/*"/>");
+    src: url("<t4 type="media" id="695557" formatter="path/*"/>") format("embedded-opentype"),
+         url("<t4 type="media" id="695558" formatter="path/*"/>") format("woff"),
+         url("<t4 type="media" id="695559" formatter="path/*"/>") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "Antenna Condensed Black";
+    src: url("<t4 type="media" id="695560" formatter="path/*"/>");
+    src: url("<t4 type="media" id="695560" formatter="path/*"/>") format("embedded-opentype"),
+         url("<t4 type="media" id="695561" formatter="path/*"/>") format("woff"),
+         url("<t4 type="media" id="695562" formatter="path/*"/>") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  /* antenna compressed */
+  
+  @font-face {
+    font-family: "Antenna Comp Bold";
+    src: url("<t4 type="media" id="435719" formatter="path/*"/>");
+    src: url("<t4 type="media" id="435719" formatter="path/*"/>") format("embedded-opentype"),
+         url("<t4 type="media" id="435720" formatter="path/*"/>") format("woff"),
+         url("<t4 type="media" id="435718" formatter="path/*"/>") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: "Antenna Comp Black";
+    src: url("<t4 type="media" id="656719" formatter="path/*"/>");
+    src: url("<t4 type="media" id="656719" formatter="path/*"/>") format("embedded-opentype"),
+         url("<t4 type="media" id="656720" formatter="path/*"/>") format("woff");
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  
+  
