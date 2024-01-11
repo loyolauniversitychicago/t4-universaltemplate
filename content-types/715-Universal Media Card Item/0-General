@@ -1,0 +1,295 @@
+Content Type Name: Universal Media Card Item (ID: 715)
+
+Description: Use with Universal Template 2021
+Minimum User Level: Contributor 
+Options: Enable in direct edit 
+
+-----------------
+Elements
+-----------------
+
+Name
+The Name element
+Plain Text	
+Max size 80
+
+
+First Media Card Item
+Mark as First media card item?
+Check Box (yes/no)	
+Max size 80
+
+
+Last Media Card Item
+Mark as Last media card item?
+Check Box (yes/no)	
+Max size 80
+
+
+Column Display Count
+If first media card item, select the number of column display
+Select Box (Universal 1-4 Column Display)	
+Max size 80
+
+Default Card Display
+If first media card item, check this box to display cards in default card style
+Check Box (yes/no)	
+Max size
+80
+
+
+Display Card Items Horizontally
+If first media card item, check this box to display card items horizontally
+Check Box (yes/no)	
+Max size
+80
+
+
+Display Circle Image
+Check this box if you want a circle image display
+Check Box (yes/no)	
+Max size
+80
+
+Image
+e.g. Title of the news article
+Media	
+Max size
+80
+
+Image Alt Text
+Enter alternate text for the image
+Plain Text	
+Max size
+150
+
+Image Portrait Display
+Optional; Set only for first media card item
+Check Box (yes/no)	
+Max size
+80
+
+Set Image Overlay
+Optional; Check to set an image overlay
+Check Box (yes/no)	
+Max size
+80
+
+Label
+e.g. Title of the news article
+Plain Text	
+Max size
+100
+
+Title
+e.g. Title of the news article
+Plain Text	
+Max size
+500
+
+Explainer
+Optional
+Plain Text	
+Max size
+150
+
+Readout
+e.g. Title of the news article
+Plain Text	
+Max size
+3500
+
+Link Text
+Optional CTA
+Plain Text	
+Max size
+80
+
+Internal Page Link
+Link text to another section in T4
+Section/Content Link	
+Max size
+80
+
+Media Link
+Link text to a file in the media library
+Media	
+Max size
+80
+
+External Page Link
+Link text to an external URL
+Plain Text	
+Max size
+500
+
+Center Align Card Content?
+Check this box if you want to center align the card item contents
+Check Box (yes/no)	
+Max size
+80
+
+Button 1 Color
+e.g. Title of the news article
+Select Box (Button Colors)	
+Max size
+80
+
+Button 1 Text
+e.g. Title of the news article
+Plain Text	
+Max size
+200
+
+Button 1 SubText
+Optional; fill in a sub text for button 1
+Plain Text	
+Max size
+80
+
+Button 1 Link
+Optional; Fill in only if Button 1 Section Link or Button 1 Media Link is not set
+Plain Text	
+Max size
+500
+
+Button 1 Media Link
+Optional; Fill in only if Button 1 Section Link or Button 1 Link is not set
+Media	
+Max size
+80
+
+Button 1 Section Link
+Optional; Fill in only if Button 1 Link or Button 1 Media Link is not set
+Section/Content Link	
+Max size
+80
+
+Button 2 Color
+e.g. Title of the news article
+Select Box (Button Colors)	
+Max size
+80
+
+Button 2 Text
+e.g. Title of the news article
+Plain Text	
+Max size
+200
+
+Button 2 SubText
+Optional; fill in a sub text for button 2
+Plain Text	
+Max size
+80
+
+Button 2 Link
+Optional; Fill in only if Button 2 Section Link or Button 2 Media Link is not set
+Plain Text	
+Max size
+500
+
+Button 2 Media Link
+Optional; Fill in only if Button 2 Section Link or Button 2 Link is not set
+Media	
+Max size
+80
+
+Button 2 Section Link
+Optional; Fill in only if Button 2 Link or Button 2 Media Link is not set
+Section/Content Link	
+Max size
+80
+
+Button 3 Color
+e.g. Title of the news article
+Select Box (Button Colors)	
+Max size
+80
+
+Button 3 Text
+e.g. Title of the news article
+Plain Text	
+Max size
+200
+
+Button 3 SubText
+Optional; fill in a sub text for button 3
+Plain Text	
+Max size
+80
+
+Button 3 Link
+Optional; Fill in only if Button 3 Section Link is not set
+Plain Text	
+Max size
+500
+
+Button 3 Media Link
+Optional; Fill in only if Button 3 Section Link or Button 3 Link is not set
+Media	
+Max size
+80
+
+Button 3 Section Link
+Optional; Fill in only if Button 3 Link is not set
+Section/Content Link	
+Max size
+80
+
+Container Width
+Optional; Default container width is 80%; Set only for first media card item content
+Check Box (Container Width)	
+Max size
+80
+
+Image Background Color
+Optional
+Check Box (Universal Image Background Colors)	
+Max size
+80
+
+Cards Background Color
+Optional; If first media card item, this sets the background color for all the cards in this group; Default is Gray; Set only for first media card item content
+Check Box (Universal Panel Background Colors)	
+Max size
+80
+
+Content Panel Background Color
+Optional; If first media card item, this sets the background color for this content panel; Default is White; Set only for first media card item content
+Check Box (Universal Panel Background Colors)	
+Max size
+80
+
+Column Width
+Optional for Designer use; If first media card item, this sets the width of each column
+Select Box (Grid Classes (Column Width))	
+Max size
+80
+
+Column Margin
+Optional for Designer use; If first media card item, this sets the margin for each column
+Select Box (Grid Gap Classes (Column Margins))	
+Max size
+80
+
+Row Margin
+Optional for Designer use; If first media card item, this sets the margin for each row
+Select Box (Grid Row Gap Classes (Row Margins))	
+Max size
+80
+
+Custom Class
+Optional for admin use only; Fill in only for the first media card item.
+Plain Text	
+Max size
+80
+
+
+-----------------
+Content Layouts
+-----------------
+
+text/module	
+text/universaltemplate	
+text/universaltemplate_aside
