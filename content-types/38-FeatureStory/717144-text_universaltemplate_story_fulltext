@@ -1,0 +1,341 @@
+Content Type: Feature Story
+
+Content Layout Information:
+
+Name: text/universaltemplate_story_fulltext
+File extension: Default 
+Syntax Type: HTML/XML
+Content Layout Processor: T4 Standard Content
+
+Content Layout Code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><t4 type="content" name="Title" output="selective-output" modifiers="htmlentities" format="$value: Loyola University Chicago" /></title>
+  <meta name="description" content="<t4 type="content" name="Blurb" output="selective-output" modifiers="htmlentities" format="$value" />" />
+  <meta name="Copyright" content="Copyright (c) Loyola University Chicago">
+  <meta name="Template" content="Universal Template">
+  <meta name="ContentID" content="<t4 type="meta" meta="content_id" />" />
+  <meta property='og:site_name' content='Loyola University Chicago' />
+  <meta property="og:title" content="<t4 type="content" name="Title" output="selective-output" modifiers="htmlentities" format="$value: Loyola University Chicago" />" />
+<meta property="og:description" content="<t4 type="content" name="Blurb" output="selective-output" modifiers="htmlentities" format="$value" />" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="<t4 type="navigation" id="21"/>" />
+<meta property="og:image" content="<t4 type="content" name="Image" output="normal" formatter="path/*" />">
+<meta property="og:image:alt" content="<t4 type="content" name="Image Caption" output="selective-output" modifiers="htmlentities" format="$value" />" />
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@LoyolaChicago" />
+  <meta name="twitter:creator" content="@LoyolaChicago">
+  <meta name="twitter:title" content="<t4 type="content" name="Title" output="selective-output" modifiers="htmlentities" format="$value: Loyola University Chicago" />">
+  <meta name="twitter:description" content="<t4 type="content" name="Blurb" output="selective-output" modifiers="htmlentities" format="$value" />">
+  <meta name="twitter:image" content="<t4 type="content" name="Image" output="normal" formatter="path/*" />">
+  <meta name="twitter:image:alt" content="<t4 type="content" name="Image Caption" output="selective-output" modifiers="htmlentities" format="$value" />" />
+  <meta name="geo.region" content="US-IL" />
+  <meta name="geo.placename" content="Chicago" />
+  <meta name="robots" content="<t4 type="navigation" id="637"/>" />
+  <link rel="canonical" href="<t4 type="navigation" id="21"/>">
+  <link rel="shortcut icon" href="https://www.luc.edu/media/home/images/favicon.ico">
+  <link rel="apple-touch-icon" href="https://www.luc.edu/media/home/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="https://www.luc.edu/media/home/images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="https://www.luc.edu/media/home/images/apple-touch-icon-114x114.png">
+  <meta name="application-name" content="LUC" />
+  <meta name="msapplication-TileColor" content="#92003b" />
+  <meta name="msapplication-TileImage" content="https://www.luc.edu/media/home/images/luc-microsoft-tile.png" />
+
+<!-- core CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="http://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="http://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Custom styles for this template -->
+<link rel="stylesheet" href="<t4 type="media" id="699045" formatter="path/*" />"> <!-- styles-framework-v3.css -->
+<link rel="stylesheet" href="<t4 type="media" id="699046" formatter="path/*" />"> <!-- styles-grid-v3.css -->
+<link rel="stylesheet" href="<t4 type="media" id="699047" formatter="path/*" />"> <!-- styles-panels-v3.css -->
+<link rel="stylesheet" href="<t4 type="media" id="699048" formatter="path/*" />"> <!-- styles-typography-v3.css -->
+<link rel="stylesheet" href="<t4 type="media" id="705246" formatter="path/*" />"> <!-- styles-antenna-tags.css -->
+<link rel="stylesheet" href="<t4 type="media" id="705255" formatter="path/*" />"> <!-- styles-pattern-library-image-references.css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<t4 type="navigation" name="Get Custom CSS for Universal Template" id="1046" />
+
+  <!-- Start Google Tag Manager part I -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-54XXDT');</script>
+<!-- End Google Tag Manager part I -->
+
+  <t4 type="navigation" name="Get Custom JS for Header" id="1059" />
+</head>
+
+<body>
+  
+  <!-- Google Tag Manager Part II -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-54XXDT"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager Part II -->
+
+<!-- Begin Analytics Script from Site Improve updated 9/2019 -->
+<script type="text/javascript">
+/*<![CDATA[*/
+(function() {
+var sz = document.createElement('script'); sz.type = 'text/javascript'; sz.async = true;
+sz.src = '//siteimproveanalytics.com/js/siteanalyze_56625.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(sz, s);
+})();
+/*]]>*/
+</script>
+<!-- End Analytics Script from Site Improve updated 9/2019 -->
+  
+<div id="main-wrapper">
+<div id="search-overlay-wrapper">
+<div id="search-overlay" class="overlay">
+<div class="container">
+<form class="form-group" role="search" action="https://www.luc.edu/search/index.cfm">
+<input id="global-search-input" type="search" class="search-input" placeholder="Search LUC.EDU" name="criteria" aria-labelledby="global-search-input">
+<button id="gloabal-search-submit" type="submit" title="Search">Search</button>
+</form>
+<span id="search-close" title="Close Overlay">×</span>
+</div>
+</div>
+</div>
+
+<!-- nav-sliding-menu -->
+<nav id="side-nav" aria-label="Main navigation" class="sidenav">
+<div id="sidenav-inner-wrapper">
+
+<div id="side-nav-search-wrapper">
+<form class="form-group" role="search" action="https://www.luc.edu/search/index.cfm">
+<input id="global-search-input" type="search" class="search-input" placeholder="Search LUC.EDU" name="criteria" aria-labelledby="search">
+<button id="gloabal-search-submit" type="submit" aria-labelledby="search" title="Search"><i class="fa fa-search"></i></button>
+</form>
+</div>
+
+<!-- global-ctas -->
+<t4 type="navigation" name="Get CTA for Universal Template - global-ctas" id="1027"/>
+
+<p>&nbsp;</p>
+  
+<!-- Get Child Sections Navigation for mobile -->
+<t4 type="navigation" name="Get Right Col Menu for Universal Template" id="1043" />
+
+<p>&nbsp;</p>
+
+<div id="footer-address" class="vcard">
+<t4 type="navigation" name="Footer for Universal Template (Mobile)" id="1022" />
+
+<div class="copyright">
+  <p>&copy; <a href="https://www.luc.edu/info/copyright_disclaimer.shtml" title="Copyright & Disclaimer 2022" style="font-size:1em; font-weight: normal; text-decoration: none; color:#FEBD18; text-transform: none; display: inline;padding-left: 0em; margin-left: 0em; border-bottom: none;">Copyright &amp; Disclaimer 2022</a></p>
+</div>
+
+</div>
+
+</div>
+</nav>
+
+
+<!-- HEADER -->
+<header id="luc-header">
+<!-- header - nav -->
+<a class="skip-main" href="#main-content-start" title="Skip to main content">Skip to main content</a>
+<!-- audience directory -->
+<nav id="audience-directory">
+<div class="container-fluid">
+<nav>
+<ul id="audience-nav" class="disclosure-nav" role="menubar">
+<li role="menuitem">
+<button type="button" onclick="location.href='https://www.luc.edu/features/stories/loyolaataglance/'" title="Prospective students">Prospective students</button>
+</li>
+<li role="menuitem">
+<button type="button" onclick="location.href='https://www.luc.edu/thekettle/'" title="Current students">Current students</button>
+</li>
+<li role="menuitem">
+<button type="button" role="menuitem" onclick="location.href='https://www.luc.edu/alumni'" title="Alumni">Alumni</button>
+</li>
+</ul>
+<ul id="directory-nav" role="menubar">
+<li role="menuitem"><button type="button" onclick="location.href='https://www.luc.edu/a-zindex/'" title="A-Z">A-Z</button>
+</li>
+<li role="menuitem"><button type="button" onclick="location.href='https://www.luc.edu/about/contactus.shtml'" title="Contact">Contact</button>
+</li>
+<li role="menuitem">
+<button type="button"onclick="location.href='https://www.luc.edu/directories/index.shtml'" title="Directories">Directories</button>
+</li>
+<li role="menuitem"><button type="button" onclick="location.href='https://locus.luc.edu/psp/cs92prd/?cmd=login'" title="LOCUS">Locus</button>
+</li>
+<li role="menuitem">
+<button type="button" onclick="location.href='https://securelb.imodules.com/s/1548/alumni/giving.aspx?sid=1548&gid=2&pgid=497&cid=1256%2f'" title="Support LUC">Support LUC</button>
+</li>
+</ul>
+</nav>
+</div>
+</nav>
+
+<script type="text/javascript">
+  var menubar = new Menubar(document.getElementById('audience-nav'));
+  menubar.init();
+</script>
+
+<script type="text/javascript">
+  var menubar = new Menubar(document.getElementById('directory-nav'));
+  menubar.init();
+</script>
+
+			<div id="site-brand-wrapper" class="container-fluid">
+			<span id="loyola-university-chicago">
+				<a href="https://www.luc.edu/" title="Loyola University Chicago">Loyola University Chicago</a>
+			</span>
+			<span id="site-name">
+				<t4 type="navigation" name="Get Site Logo LW" id="874" />
+		  </span>
+		  <span id="brand">
+				<a href="https://www.luc.edu/" title="Loyola University Chicago"><img src="<t4 type="media" id="626408" formatter="path/*" />" alt="Loyola University Chicago logo in header of site"></a>
+			</span>
+			<nav id="main-mobile"> 
+        <button id="menu-button-mobile" aria-controls="side-nav" aria-haspopup="true" tabindex="0" type="button" role="menuitem" title="Menu">
+					<span class="menu-bar menu-bar-one"></span>
+					<span class="menu-bar menu-bar-two"></span>
+					<span class="menu-bar menu-bar-three"></span>
+					<span class="menu-bar menu-bar-four"></span>
+					<span class="menu-text">Menu</span>
+				</button>
+				<span id="brand">
+					<a href="https://www.luc.edu/" title="Loyola University Chicago"><img src="<t4 type="media" id="626408" formatter="path/*" />" alt="Loyola University Chicago logo in footer of site"></a>
+				</span>
+			</nav>
+		</div>
+		</header>
+  
+<!-- nav-accessible 2 -->
+<nav id="main">
+  
+<!-- site menu -->
+<ul id="site-nav" class="disclosure-nav" role="menubar">
+<t4 type="navigation" name="Universal Site Menu 1" id="1028" />
+</ul>
+  
+<!-- cta menu -->
+<ul id="cta-nav" class="disclosure-nav" role="menubar">
+<t4 type="navigation" name="Get CTA for Universal Template - cta-nav" id="1029" />
+<!-- I Links -->
+<li id="information" role="none">
+<button id="information-button" type="button" aria-expanded="true" aria-controls="information-nav" title="Info Links">i</button>
+<ul role="menu" id="information-nav">
+<t4 type="navigation" name="Get iLinks for Universal Template" id="1030" />
+</ul>
+</li>
+<!-- Search icon -->
+<li id="search" role="none">
+<button id="search-button" type="button" aria-expanded="true" aria-labelledby="search" title="Search">
+<i class="fa fa-search"></i>
+</button>
+</li>
+</ul>
+  
+</nav>
+
+<script type="text/javascript">
+  var menubar = new Menubar(document.getElementById('site-nav'));
+  menubar.init();
+</script>
+<script type="text/javascript">
+  var menubar = new Menubar(document.getElementById('cta-nav'));
+  menubar.init();
+</script>
+
+<main id="main-content-start" alt="">
+<!-- #social-icon-bar -->
+<t4 type="navigation" id="1023"/>
+
+<t4 type="navigation" name="Get Hero Photo" id="802" />
+
+<!-- main content here -->
+
+<div id="main-content-wrapper">
+
+<section id="main-section-wrapper">
+<div class="container">
+  
+<section id="panel-pagination"<t4 type="navigation" name="Hide Breadcrumbs" id="1045" />><t4 type="navigation" name="Breadcrumbs for Universal Template" id="1044" /></section>
+  
+<t4 type="content" name="Title" output="selective-output" modifiers="htmlentities" format="<h1>$value</h1>" />
+  
+<div class="padding-sm"></div>
+  
+<img src="<t4 type="content" name="Image" output="normal" formatter="path/*" />">
+  
+<t4 type="content" name="Body" output="selective-output" modifiers="medialibrary,nav_sections" format="$value" />
+
+<div class="padding-sm"></div>
+  
+</div>
+</section>
+
+<aside id="main-aside-wrapper">
+  <!--
+<div class="grid-item">
+<nav id="secondary">
+<t4 type="navigation" name="Get Right Col Menu for Universal Template" id="1043" />
+</nav>
+</div> -->
+</aside>
+
+</div>
+
+
+<!-- #social-icon-bar -->
+<t4 type="navigation" id="1024"/>
+
+	
+<footer id="footer-not-fixed">
+  <div class="container-fluid p-0">
+    <span id="brand"><a href="https://www.luc.edu/" title="Loyola University Chicago"><img src="<t4 type="media" id="626408" formatter="path/*"/>" alt="Loyola University Chicago logo in footer of site"></a></span>
+    <div id="footer-address" class="vcard">
+      <t4 type="navigation" name="Footer for Universal Template" id="1021" />
+    </div>
+    <span id="copyright"><a href="https://www.luc.edu/info/copyright_disclaimer.shtml" title="Copyright & Disclaimer 2022">&copy; Copyright &amp; Disclaimer 2022</a> &middot; <a href="https://www.luc.edu/its/aboutits/itspoliciesguidelines/privacypolicy/" title="Privacy Policy">Privacy Policy</a></span>
+  </div>
+</footer>
+
+<footer id="footer-fixed">
+<div class="container-fluid p-0">
+<span id="brand">
+<a href="https://www.luc.edu/" title="Loyola University Chicago">
+<img src="<t4 type="media" id="626408" formatter="path/*"/>" alt="Loyola University Chicago logo in footer of site">
+</a>
+</span>
+<div id="footer-address" class="vcard">
+<t4 type="navigation" name="Footer for Universal Template" id="1021" />
+</div>
+<p><span id="copyright"><a href="https://www.luc.edu/info/copyright_disclaimer.shtml" title="Copyright & Disclaimer 2022">&copy; Copyright &amp; Disclaimer 2022</a> &middot; <a href="https://www.luc.edu/its/aboutits/itspoliciesguidelines/privacypolicy/" title="Privacy Policy">Privacy Policy</a></span></p>
+</div>
+</footer>
+
+</main>
+
+<!-- inject:js -->
+<script src="<t4 type='media' id='699049' formatter='path/*' />"></script> <!-- accessible-accordion-aria-v3.js -->
+<script src="<t4 type='media' id='699052' formatter='path/*' />"></script> <!-- accessible-nav-v3.js -->
+<script src="<t4 type='media' id='699053' formatter='path/*' />"></script> <!-- accessible-tabs-aria-v3.js -->
+<script src="<t4 type='media' id='699054' formatter='path/*' />"></script> <!-- card-overlay-height-adjust-v3.js -->
+<script src="<t4 type='media' id='699059' formatter='path/*' />"></script> <!-- scroll-effect-v3.js -->
+<script src="<t4 type='media' id='699060' formatter='path/*' />"></script> <!-- sliding-menu-v3.js -->
+<t4 type="navigation" name="Get Custom JS for Universal Template" id="1047" />
+<!-- endinject -->
+
+</div>
+</body>
+</html>
+
+
+
+

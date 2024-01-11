@@ -1,0 +1,47 @@
+Content Type: Universal Media Card Item
+
+Content Layout Info:
+
+Name = text/universaltemplate (ID: 705282)
+File Extension = Default
+Syntax Type = HTML/XML
+Content Layout Processor = T4 Standard Content
+
+Content Layout Code:
+
+<t4 type="content" name="First Media Card Item" output="selective-output" format="<section class=&quot;container-fluid " /><t4 type="content" name="Content Panel Background Color" output="normal" display_field="value" /><t4 type="content" name="First Media Card Item" output="selective-output" format="&quot; id=&quot;panel-cards" /><t4 type="content" name="Display Card Items Horizontally" output="selective-output" format="-horizontal" /><t4 type="content" name="First Media Card Item" output="selective-output" format="&quot;><div class=&quot;container " /><t4 type="content" name="Image Portrait Display" output="selective-output" format="portrait " /><t4 type="content" name="Container Width" output="normal" display_field="value" /><t4 type="content" name="First Media Card Item" output="selective-output" format="&quot;><div class=&quot;grid-wrapper-min-max" /> <t4 type="content" name="Column Width" output="normal" display_field="value" /> <t4 type="content" name="Column Margin" output="normal" display_field="value" /> <t4 type="content" name="Row Margin" output="normal" display_field="value" /><t4 type="content" name="Custom Class" output="selective-output" format=" $value" /><t4 type="content" name="Default Card Display" output="selective-output" format=" card" /><t4 type="content" name="Display Card Items Horizontally" output="selective-output" format=" card card-horizontal" /> <t4 type="content" name="Column Display Count" output="normal" display_field="value" /><t4 type="content" name="First Media Card Item" output="selective-output" format="&quot;>" />
+
+<div class="grid-item<t4 type="content" name="Center Align Card Content?" output="selective-output" format=" center" />">
+
+<t4 type="content" name="Image" output="selective-output" format="<div class=&quot;image-wrapper " /><t4 type="content" name="Display Circle Image" output="selective-output" format="image-wrapper-circle " /><t4 type="content" name="Image Background Color" output="normal" display_field="value" /><t4 type="content" name="Image" output="selective-output" format="&quot; style=&quot;background-image:url('" /><t4 type="content" name="Image" output="normal" formatter="path/*" /><t4 type="content" name="Image" output="selective-output" format="');&quot;>" />
+<t4 type="content" name="Image" output="selective-output" formatter="/path" format="<img src=&quot;" /><t4 type="content" name="Image" output="normal" formatter="path/*" /><t4 type="content" name="Image" output="selective-output" format="&quot;" /><t4 type="content" name="Image Alt Text" output="selective-output" format=" alt=&quot;$value&quot; title=&quot;$value&quot;" /><t4 type="content" name="Image" output="selective-output" format=">" />
+
+<t4 type="content" name="Image" output="selective-output" format="</div>" />
+
+<div class="content-grid-wrapper <t4 type="content" name="Cards Background Color" output="normal" display_field="value" />">
+  
+<div class="flex-item content">
+<t4 type="content" name="Label" output="selective-output" format="<h6>$value</h6>" />
+<t4 type="content" name="Title" output="selective-output" format="<h4>$value</h4>" /> 
+
+<t4 type="content" name="Explainer" output="selective-output" format="<div class=&quot;explainer&quot;><p>$value</p></div>" />
+<t4 type="content" name="Readout" output="selective-output" format="<p>$value</p>" />
+  
+<t4 type="content" name="Internal Page Link" output="selective-output" format="<a class=&quot;cta&quot;" /><t4 type="content" name="External Page Link" output="selective-output" format="<a class=&quot;cta&quot;" /><t4 type="content" name="Media Link" output="selective-output" format="<a class=&quot;cta&quot; href=&quot;$value&quot; target=&quot;_blank&quot;" formatter="path/*" /><t4 type="content" name="Link Text" output="selective-output" format=" alt=&quot;$value&quot; title=&quot;$value&quot;" /><t4 type="content" name="Media Link" output="selective-output" format=">" /><t4 type="content" name="Internal Page Link" output="selective-output" modifiers="nav_sections" format=" href=&quot;" /><t4 type="content" name="Internal Page Link" output="linkurl" modifiers="nav_sections" /><t4 type="content" name="Internal Page Link" output="selective-output" modifiers="nav_sections" format="&quot;>" /><t4 type="content" name="External Page Link" output="selective-output" format=" href=&quot;$value&quot;>" /><t4 type="content" name="Link Text" output="selective-output" format="$value" /><t4 type="content" name="Internal Page Link" output="selective-output" format="</a>" /><t4 type="content" name="External Page Link" output="selective-output" format="</a>" /><t4 type="content" name="Media Link" output="selective-output" format="</a>" />
+  
+</div>
+  
+<t4 type="content" name="Button 1 Text" output="selective-output" format="<div class=&quot;flex-item-buttons-wrapper&quot;>" />
+  
+<t4 type="content" name="Button 1 Text" output="selective-output" format="<div class=&quot;flex-item category-light " /><t4 type="content" name="Button 1 Color" output="normal" display_field="value" /><t4 type="content" name="Button 1 Text" output="selective-output" format="&quot;><button" /><t4 type="content" name="Button 1 Link" output="selective-output" format=" onclick=&quot;window.open('$value','_blank')&quot;" /><t4 type="content" name="Button 1 Media Link" output="selective-output" format=" onclick=&quot;window.open('$value','_blank')&quot;" formatter="path/*" /><t4 type="content" name="Button 1 Section Link" output="selective-output" modifiers="nav_sections" format=" onclick=&quot;window.open(&#39;" /><t4 type="content" name="Button 1 Section Link" output="linkurl" modifiers="nav_sections" /><t4 type="content" name="Button 1 Section Link" output="selective-output" modifiers="nav_sections" format="&#39;,&#39;_self&#39;)&quot;" /><t4 type="content" name="Button 1 Text" output="selective-output" format=" title=&quot;$value&quot;>$value" /><t4 type="content" name="Button 1 Text" output="selective-output" format="</button>" /><t4 type="content" name="Button 1 SubText" output="selective-output" format="<h6 style=&quot;text-align: center;&quot;>$value</h6>" /><t4 type="content" name="Button 1 Text" output="selective-output" format="</div>" />
+  
+<t4 type="content" name="Button 2 Text" output="selective-output" format="<div class=&quot;flex-item category-light " /><t4 type="content" name="Button 2 Color" output="normal" display_field="value" /><t4 type="content" name="Button 2 Text" output="selective-output" format="&quot;><button" /><t4 type="content" name="Button 2 Link" output="selective-output" format=" onclick=&quot;window.open('$value','_blank')&quot;" /><t4 type="content" name="Button 2 Media Link" output="selective-output" format=" onclick=&quot;window.open('$value','_blank')&quot;" formatter="path/*" /><t4 type="content" name="Button 2 Section Link" output="selective-output" modifiers="nav_sections" format=" onclick=&quot;window.open(&#39;" /><t4 type="content" name="Button 2 Section Link" output="linkurl" modifiers="nav_sections" /><t4 type="content" name="Button 2 Section Link" output="selective-output" modifiers="nav_sections" format="&#39;,&#39;_self&#39;)&quot;" /><t4 type="content" name="Button 2 Text" output="selective-output" format=" title=&quot;$value&quot;>$value" /><t4 type="content" name="Button 2 Text" output="selective-output" format="</button>" /><t4 type="content" name="Button 2 SubText" output="selective-output" format="<h6 style=&quot;text-align: center;&quot;>$value</h6>" /><t4 type="content" name="Button 2 Text" output="selective-output" format="</div>" />
+  
+<t4 type="content" name="Button 3 Text" output="selective-output" format="<div class=&quot;flex-item category-light " /><t4 type="content" name="Button 3 Color" output="normal" display_field="value" /><t4 type="content" name="Button 3 Text" output="selective-output" format="&quot;><button" /><t4 type="content" name="Button 3 Link" output="selective-output" format=" onclick=&quot;window.open('$value','_blank')&quot;" /><t4 type="content" name="Button 3 Media Link" output="selective-output" format=" onclick=&quot;window.open('$value','_blank')&quot;" formatter="path/*" /><t4 type="content" name="Button 3 Section Link" output="selective-output" modifiers="nav_sections" format=" onclick=&quot;window.open(&#39;" /><t4 type="content" name="Button 3 Section Link" output="linkurl" modifiers="nav_sections" /><t4 type="content" name="Button 3 Section Link" output="selective-output" modifiers="nav_sections" format="&#39;,&#39;_self&#39;)&quot;" /><t4 type="content" name="Button 3 Text" output="selective-output" format=" title=&quot;$value&quot;>$value" /><t4 type="content" name="Button 3 Text" output="selective-output" format="</button>" /><t4 type="content" name="Button 3 SubText" output="selective-output" format="<h6 style=&quot;text-align: center;&quot;>$value</h6>" /><t4 type="content" name="Button 3 Text" output="selective-output" format="</div>" />
+  
+<t4 type="content" name="Button 1 Text" output="selective-output" format="</div>" />
+  
+</div>
+  
+</div>
+<t4 type="content" name="Last Media Card Item" output="selective-output" format="</div></div></section>" />
