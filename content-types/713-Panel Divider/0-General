@@ -1,0 +1,35 @@
+Content Type Name: Panel Divider (ID: 713)
+
+Description: Use with Universal Template 2021
+Minimum User Level: Contributor 
+Options: Enable in direct edit 
+
+-----------------
+Elements
+-----------------
+
+Name
+The Name element
+Plain Text	
+Max size 
+80
+
+Padding Size
+e.g. Title of the news article
+Select Box (Padding Size)	
+Max size
+80
+Required
+
+Background color
+e.g. Title of the news article
+Select Box (Universal Panel Background Colors)	
+Max size
+80
+
+-----------------
+Content Layouts
+-----------------
+
+text/universaltemplate
+text/universaltemplate_aside

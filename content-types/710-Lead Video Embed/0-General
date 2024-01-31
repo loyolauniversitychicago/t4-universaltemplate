@@ -1,0 +1,62 @@
+Content Type Name: Lead Video Embed (ID: 710)
+
+Description: Use with Universal Template 2021
+Minimum User Level: Contributor 
+Options: Enable in direct edit 
+
+-----------------
+Elements
+-----------------
+
+Name
+The Name element
+Plain Text	
+Max size 80
+
+Title
+e.g. Title of the news article
+Plain Text	
+Max size
+350
+
+Body
+e.g. Title of the news article
+HTML
+Max size
+3000
+
+Link Text
+e.g. Title of the news article
+Plain Text	
+Max size
+80
+
+External Link
+e.g. Title of the news article
+Plain Text	
+Max size
+350
+
+Section Link
+e.g. Title of the news article
+Section/Content Link
+Max size
+80
+
+YouTube Video ID
+e.g. Title of the news article
+Plain Text	
+Max size
+150
+
+Background Image
+Optional; if left blank, background is set to Maroon
+Media	
+Max size
+80
+
+-----------------
+Content Layouts
+-----------------
+
+text/universaltemplate

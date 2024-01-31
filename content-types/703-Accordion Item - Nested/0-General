@@ -1,0 +1,44 @@
+Content Type Name: Nested Accordion Item (ID: 703)
+
+Description: Use with Universal Template 2021
+Minimum User Level: Contributor 
+Options: Enable in direct edit 
+
+-----------------
+Elements
+-----------------
+
+Name
+The Name element
+Plain Text	
+Max size 80
+
+Title
+e.g. Title of the news article
+Plain Text	
+Max size
+300
+
+Blurb
+Optional text before the body dropdown
+Plain Text	
+Max size
+350
+
+Body
+e.g. Title of the news article
+HTML
+Max size
+100000
+
+Panel ID
+This becomes the anchor id for this content piece
+Plain Text	
+Max size
+80
+
+-----------------
+Content Layouts
+-----------------
+
+text/nestedaccordion

@@ -1,0 +1,13 @@
+Content Type: Panel Divider
+
+Content Layout Info:
+
+Name = text/universaltemplate (ID: 705274)
+File Extension = Default
+Syntax Type = HTML/XML
+Content Layout Processor = T4 Standard Content
+
+Content Layout Code:
+<div id="<t4 type=" meta" meta="content_id" />" class="
+<t4 type="content" name="Padding Size" output="normal" display_field="value" />
+<t4 type="content" name="Background Color" output="normal" display_field="value" />"></div>
