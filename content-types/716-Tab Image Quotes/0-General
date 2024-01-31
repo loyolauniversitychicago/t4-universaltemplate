@@ -1,0 +1,172 @@
+
+Content Type Name: Tab Image Quotes (ID: 716)
+
+Description: Use with Universal Template 2021
+Minimum User Level: Contributor 
+Options: Enable in direct edit 
+
+-----------------
+Elements
+-----------------
+
+Name
+The Name element
+Plain Text	
+Max size 
+80
+
+Column Display Count
+e.g. Title of the news article
+Select Box (Universal 1-4 Column Display)	
+Max size 
+80
+
+Tab 1 Image
+e.g. Title of the news article
+Media
+Max size 
+80
+
+Tab 1 Image Alt Text
+e.g. Title of the news article
+Plain Text
+Max size
+80
+
+Tab 1 Title
+e.g. Title of the news article
+Plain Text
+Max size 
+150
+
+Tab 1 Quote
+e.g. Title of the news article
+Plain Text
+Max size
+1000
+
+Tab 1 Citation
+e.g. Title of the news article
+Plain Text
+Max size
+200
+
+Tab 2 Image
+e.g. Title of the news article
+Media
+Max size 
+80
+
+Tab 2 Image Alt Text
+e.g. Title of the news article
+Plain Text
+Max size
+80
+
+Tab 2 Title
+e.g. Title of the news article
+Plain Text
+Max size 
+150
+
+Tab 2 Quote
+e.g. Title of the news article
+Plain Text
+Max size
+1000
+
+Tab 2 Citation
+e.g. Title of the news article
+Plain Text
+Max size
+200
+
+Tab 3 Image
+e.g. Title of the news article
+Media
+Max size 
+80
+
+Tab 3 Image Alt Text
+e.g. Title of the news article
+Plain Text
+Max size
+80
+
+Tab 3 Title
+e.g. Title of the news article
+Plain Text
+Max size 
+150
+
+Tab 3 Quote
+e.g. Title of the news article
+Plain Text
+Max size
+1000
+
+Tab 3 Citation
+e.g. Title of the news article
+Plain Text
+Max size
+200
+
+Tab 4 Image
+e.g. Title of the news article
+Media
+Max size 
+80
+
+Tab 4 Image Alt Text
+e.g. Title of the news article
+Plain Text
+Max size
+80
+
+Tab 4 Title
+e.g. Title of the news article
+Plain Text
+Max size 
+150
+
+Tab 4 Quote
+e.g. Title of the news article
+Plain Text
+Max size
+1000
+
+Tab 4 Citation
+e.g. Title of the news article
+Plain Text
+Max size
+200
+
+Container Width
+Optional; Set container width; default is 80%
+Check Box (Container Width)	
+Max size
+80
+
+Column Width
+Optional for Designer use; If first media card item, this sets the width of each column
+Select Box (Grid Classes (Column Width))	
+Max size
+80
+
+Column Margin
+Optional for Designer use; If first media card item, this sets the margin for each column
+Select Box (Grid Gap Classes (Column Margins))	
+Max size
+80
+
+Row Margin
+Optional for Designer use; If first media card item, this sets the margin for each row
+Select Box (Grid Row Gap Classes (Row Margins))	
+Max size
+80
+
+-----------------
+Content Layouts
+-----------------
+
+text/universaltemplate	

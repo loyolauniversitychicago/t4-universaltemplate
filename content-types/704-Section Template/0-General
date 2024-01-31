@@ -1,0 +1,76 @@
+Content Type Name: Section Template (ID: 704)
+
+Description: Use with Universal Template 2021
+Minimum User Level: Contributor 
+Options: Enable in direct edit 
+
+-----------------
+Elements
+-----------------
+
+Name
+The Name element
+Plain Text	
+Max size 
+80
+
+Full Width
+Set this section as full width?
+Check Box (yes/no)
+Max size 
+80
+
+Hide Page Title
+Click to hide the section name
+Check Box (yes/no)
+Max size 
+80
+
+Hide Breadcrumbs
+Click to hide the breadcrumbs display
+Check Box (yes/no)	
+Max size
+80
+
+Container Width
+Optional; Set container width; default is 80%
+Check Box (Container Width)	
+Max size
+80
+
+Hide Default Interior Page Navigation
+Optional for interior pages only; Click to hide the default interior page navigation display
+Check Box (yes/no)	
+Max size
+80
+
+Hide Top Navigation Menu Bar
+Optional for any page; Click to hide the top navigation menu bar
+Check Box (yes/no)	
+Max size
+80
+
+Add Top Margin
+Optional; Set Top Margin; default is no margin
+Check Box (Padding Size)	
+Max size
+80
+
+Add Top Padding
+Optional; Add Padding above the breadcrumbs or the page title
+Check Box (yes/no)	
+Max size
+80
+
+-----------------
+Content Layouts
+-----------------
+
+text/containerwidth	
+text/hidebreadcrumbs	
+text/hideinteriorpagenav	
+text/hidepagetitle	
+text/hidetopnavigationmenubar	
+text/sectiontemplate	
+text/templatetopmargin	
+text/templatetoppadding

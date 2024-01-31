@@ -1,0 +1,178 @@
+
+Content Type Name: Universal Blockquote (ID: 740)
+
+Description: Use with Universal Template 2021
+Minimum User Level: Contributor 
+Options: Enable in direct edit 
+
+-----------------
+Elements
+-----------------
+
+Name
+The Name element
+Plain Text	
+Max size 
+80
+
+Container Width
+Optional; default container width is 80%
+Check Box (Container Width)	
+Max size 
+80
+
+Panel Background Color
+Optional; default is white
+Check Box (Universal Panel Background Colors)	
+Max size 
+80
+
+Column Display Count
+Set the number of columns to display
+Check Box (Universal 1-4 Column Display)
+Max size 
+80
+
+Button 1 Color
+Optional button color; default is maroon
+Check Box (Button Colors)
+Max size 
+80
+
+Button 1 Title
+Button 1 text display
+Plain Text
+Max size 
+150
+
+Button 1 External Link
+Button 1 external link; Fill in only if section link is not set
+Plain Text
+Max size
+250
+
+Button 1 Section Link
+Button 1 section link; Fill in only if external link is not set
+Section/Content Link	
+Max size
+80
+
+Button 1 Subtitle
+Optional button sub text
+Plain Text	
+Max size 
+250
+
+Button 2 Color
+Optional button color; default is maroon
+Check Box (Button Colors)
+Max size 
+80
+
+Button 2 Title
+Button 2 text display
+Plain Text
+Max size 
+150
+
+Button 2 External Link
+Button 2 external link; Fill in only if section link is not set
+Plain Text
+Max size
+250
+
+Button 2 Section Link
+Button 2 section link; Fill in only if external link is not set
+Section/Content Link	
+Max size
+80
+
+Button 2 Subtitle
+Optional button sub text
+Plain Text	
+Max size 
+250
+
+Button 3 Color
+Optional button color; default is maroon
+Check Box (Button Colors)
+Max size 
+80
+
+Button 3 Title
+Button 3 text display
+Plain Text
+Max size 
+150
+
+Button 3 External Link
+Button 3 external link; Fill in only if section link is not set
+Plain Text
+Max size
+250
+
+Button 3 Section Link
+Button 3 section link; Fill in only if external link is not set
+Section/Content Link	
+Max size
+80
+
+Button 3 Subtitle
+Optional button sub text
+Plain Text	
+Max size 
+250
+
+Button 4 Color
+Optional button color; default is maroon
+Check Box (Button Colors)
+Max size 
+80
+
+Button 4 Title
+Button 4 text display
+Plain Text
+Max size 
+150
+
+Button 4 External Link
+Button 4 external link; Fill in only if section link is not set
+Plain Text
+Max size
+250
+
+Button 4 Section Link
+Button 4 section link; Fill in only if external link is not set
+Section/Content Link	
+Max size
+80
+
+Button 4 Subtitle
+Optional button sub text
+Plain Text	
+Max size 
+250
+
+Column Width
+Optional for Designer use; If first media card item, this sets the width of each column
+Select Box (Grid Classes (Column Width))	
+Max size
+80
+
+Column Margin
+Optional for Designer use; If first media card item, this sets the margin for each column
+Select Box (Grid Gap Classes (Column Margins))	
+Max size
+80
+
+Row Margin
+Optional for Designer use; If first media card item, this sets the margin for each row
+Select Box (Grid Row Gap Classes (Row Margins))	
+Max size
+80
+
+-----------------
+Content Layouts
+-----------------
+
+text/universaltemplate
