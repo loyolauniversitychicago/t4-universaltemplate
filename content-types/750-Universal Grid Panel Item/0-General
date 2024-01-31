@@ -1,0 +1,59 @@
+
+Content Type Name: Universal Image Grid Panel Item (ID: 750)
+
+Description: Works with Universal Image Grid Panel for Universal Template 2021
+Minimum User Level: Contributor 
+Options: Enable in direct edit
+
+-----------------
+Elements
+-----------------
+
+Name
+The Name element
+Plain Text	
+Max size 
+80
+
+Title
+e.g. Title of the news article
+Plain Text
+Max size
+200
+
+Image
+e.g. Title of the news article
+Media
+Max side
+80
+Required
+
+Sub Title
+e.g. Title of the news article
+Plain Text
+Max size
+200
+
+Body
+e.g. Title of the news article
+Plain Text	
+Max size
+500
+
+Action Link Text 
+e.g. Title of the news article
+Select Box (Action Links)	
+Max size
+100
+
+External Link
+e.g. Title of the news article
+Plain Text	
+Max size
+150
+
+-----------------
+Content Layouts
+-----------------
+
+text/universal_imagegridpanelitem

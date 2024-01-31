@@ -1,0 +1,13 @@
+Content Type: Universal Grid Panel Item
+
+Content Layout Info:
+
+Name = text/universaltemplatehero (ID: 730903)
+File Extension = Default
+Syntax Type = HTML/XML
+Content Layout Processor = T4 Standard Content
+
+Content Layout Code:
+<div class="grid-item">
+<img src="<t4 type="content" name="Image" output="normal" formatter="path/*" />" <t4 type="content" name="Title" output="selective-output" format="alt=&quot;$value&quot; title=&quot;$value&quot;" />>
+</div>
