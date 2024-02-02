@@ -1,0 +1,51 @@
+Content Type: Universal LGS Buttons
+
+Content Layout Info:
+
+Name = text/universaltemplate (ID: 705272)
+File Extension = Default
+Syntax Type = HTML/XML
+Content Layout Processor = T4 Standard Content
+
+Content Layout Code:
+<section id="panel-text" class="container-fluid <t4 type="content" name="Background Color" output="normal" display_field="value" />">
+<div class="container">
+<div class="grid-wrapper-min-max one-column">
+<div class="grid-item">
+<div class="content-grid-wrapper">
+
+<div class="flex-item content<t4 type="content" name="Center Align Title" output="selective-output" format=" center" /><t4 type="content" name="Set Title Text as All Caps" output="selective-output" format=" uppercase" />">
+<t4 type="content" name="Title" output="selective-output" format="<h4>$value</h4>" />
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="panel-text" class="container-fluid <t4 type="content" name="Background Color" output="normal" display_field="value" />">
+<div class="container <t4 type="content" name="Container Width" output="normal" display_field="value" />">
+
+<div class="grid-wrapper-min-max <t4 type="content" name="Number of Columns" output="normal" display_field="value" /> <t4 type="content" name="Column Width" output="normal" display_field="value" /> <t4 type="content" name="Column Margin" output="normal" display_field="value" /> <t4 type="content" name="Row Margin" output="normal" display_field="value" /><t4 type="content" name="Class" output="selective-output" format=" $value" />">
+
+<t4 type="content" name="Button 1 Title" output="selective-output" format="<div class=&quot;grid-item&quot;><div class=&quot;content-grid-wrapper&quot;><div class=&quot;flex-item&quot;><button onclick=&quot;window.open(&#39;" /><t4 type="content" name="Button 1 Section Link" output="linkurl" modifiers="nav_sections" /><t4 type="content" name="Button 1 External Link" output="selective-output" format="$value" /><t4 type="content" name="Button 1 Media Link" output="selective-output" format="$value" formatter="path/*" /><t4 type="content" name="Button 1 Title" output="selective-output" format="&#39;,&#39;_self&#39;)&quot; title=&quot;$value&quot;>$value</button>" />
+<t4 type="content" name="Button 1 SubTitle" output="selective-output" format="<h6 style=&quot;text-align: center;&quot;>$value</h6>" />
+<t4 type="content" name="Button 1 Title" output="selective-output" format="</div></div></div>" />
+  
+<t4 type="content" name="Button 2 Title" output="selective-output" format="<div class=&quot;grid-item&quot;><div class=&quot;content-grid-wrapper&quot;><div class=&quot;flex-item&quot;><button onclick=&quot;window.open(&#39;" /><t4 type="content" name="Button 2 Section Link" output="linkurl" modifiers="nav_sections" /><t4 type="content" name="Button 2 External Link" output="selective-output" format="$value" /><t4 type="content" name="Button 2 Media Link" output="selective-output" format="$value" formatter="path/*" /><t4 type="content" name="Button 2 Title" output="selective-output" format="&#39;,&#39;_self&#39;)&quot; title=&quot;$value&quot;>$value</button>" />
+<t4 type="content" name="Button 2 SubTitle" output="selective-output" format="<h6 style=&quot;text-align: center;&quot;>$value</h6>" />
+<t4 type="content" name="Button 2 Title" output="selective-output" format="</div></div></div>" />
+
+<t4 type="content" name="Button 3 Title" output="selective-output" format="<div class=&quot;grid-item&quot;><div class=&quot;content-grid-wrapper&quot;><div class=&quot;flex-item&quot;><button onclick=&quot;window.open(&#39;" /><t4 type="content" name="Button 3 Section Link" output="linkurl" modifiers="nav_sections" /><t4 type="content" name="Button 3 External Link" output="selective-output" format="$value" /><t4 type="content" name="Button 3 Media Link" output="selective-output" format="$value" formatter="path/*" /><t4 type="content" name="Button 3 Title" output="selective-output" format="&#39;,&#39;_self&#39;)&quot; title=&quot;$value&quot;>$value</button>" />
+<t4 type="content" name="Button 3 SubTitle" output="selective-output" format="<h6 style=&quot;text-align: center;&quot;>$value</h6>" />
+<t4 type="content" name="Button 3 Title" output="selective-output" format="</div></div></div>" />
+  
+<t4 type="content" name="Button 4 Title" output="selective-output" format="<div class=&quot;grid-item&quot;><div class=&quot;content-grid-wrapper&quot;><div class=&quot;flex-item&quot;><button onclick=&quot;window.open(&#39;" /><t4 type="content" name="Button 4 Section Link" output="linkurl" modifiers="nav_sections" /><t4 type="content" name="Button 4 External Link" output="selective-output" format="$value" /><t4 type="content" name="Button 4 Media Link" output="selective-output" format="$value" formatter="path/*" /><t4 type="content" name="Button 4 Title" output="selective-output" format="&#39;,&#39;_self&#39;)&quot; title=&quot;$value&quot;>$value</button>" />
+<t4 type="content" name="Button 4 SubTitle" output="selective-output" format="<h6 style=&quot;text-align: center;&quot;>$value</h6>" />
+<t4 type="content" name="Button 4 Title" output="selective-output" format="</div></div></div>" />
+  
+</div>
+
+</div>
+</section>

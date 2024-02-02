@@ -1,0 +1,14 @@
+Content Type: Universal Infobox
+
+Content Layout Info:
+
+Name = text/universaltemplate (ID: 716320)
+File Extension = Default
+Syntax Type = HTML/XML
+Content Layout Processor = T4 Standard Content
+
+Content Layout Code:
+<div class="infobox sans-serif container <t4 type="content" name="Container Width" output="normal" display_field="value" /> <t4 type="content" name="Background Color" output="normal" display_field="value" />">
+<t4 type="content" name="Title" output="selective-output" format="<h4>$value</h4>" />
+<t4 type="content" name="Body" output="selective-output" modifiers="medialibrary,nav_sections" format="$value" />
+</div>

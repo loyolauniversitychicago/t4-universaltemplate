@@ -1,0 +1,92 @@
+Content Type Name: Universal Panel Button CTA (ID: 739)
+
+Description: Use with Universal Template 2021
+Minimum User Level: Contributor 
+Options: Enable in direct edit 
+
+-----------------
+Elements
+-----------------
+
+Name
+The Name element
+Plain Text	
+Max size 80
+
+Lead In Text
+Displays text as H5
+Plain Text	
+Max size
+100
+
+Button Text
+e.g. Title of the news article
+Plain Text	
+Max size
+250
+
+Section Link
+Optional; Add a Section Link OR Media Link OR External Link
+Section/Content Link	
+Max size
+80
+
+Media Link
+Optional; Add a Section Link OR Media Link OR External Link
+Media	
+Max size
+80
+
+External Link
+Optional; Add a Section Link OR Media Link OR External Link
+Plain Text	
+Max size
+250
+
+Panel Background Color
+e.g. Title of the news article
+Check Box (Universal Panel Background Colors)	
+Max size
+80
+
+Button Color
+e.g. Title of the news article
+Check Box (Button Colors)
+Max size
+80
+
+Body Content
+e.g. Title of the news article
+HTML
+Max size
+150
+
+Center Align Content?
+Optional; Content displays left aligned by default
+Check Box (yes/no)
+Max size
+80
+
+Apply Content Padding
+Optional; Applies padding around container; no padding is applied by default
+Check Box (Padding Size)
+Max size
+80
+
+Container Width
+Optional; Default width is 80%
+Check Box (Container Width)		
+Max size
+80
+
+Class
+Optional; Add a special class for this section; For designers use only
+Plain Text	
+Max size
+80
+
+-----------------
+Content Layouts
+-----------------
+
+text/universaltemplate
