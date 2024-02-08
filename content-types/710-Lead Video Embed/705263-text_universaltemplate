@@ -1,0 +1,30 @@
+Content Type: Lead Image
+
+Content Layout Info:
+
+Name = text/universaltemplate (ID: 705263)
+File Extension = Default
+Syntax Type = HTML/XML
+Content Layout Processor = T4 Standard Content
+
+Content Layout Code:
+<section id="panel-video-embed" class="container-fluid">
+    <t4 type="content" name="Background Image" output="selective-output" format="<div class=&quot;background-image&quot;>
+    <img src=&quot;$value&quot; alt=&quot;building&quot;>
+    </div>
+    <div class=&quot;content-image-overlay&quot;></div>" formatter="path/*" /> 
+      <div class="container">
+        <div class="grid-wrapper-min-max">
+          <div class="grid-item">
+            <div class="video-wrapper">
+              <t4 type="content" name="YouTube Video ID" output="selective-output" format="<iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/$value&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen></iframe>" />
+            </div>
+            <div class="content-caption sans-serif">
+              <t4 type="content" name="Title" output="selective-output" format="<h4>$value</h4>" />
+              <t4 type="content" name="Body" output="selective-output" modifiers="medialibrary,nav_sections" format="$value" />
+              <t4 type="content" name="Link Text" output="selective-output" format="<a class=&quot;cta&quot; alt=&quot;$value&quot; title=&quot;$value&quot;" /><t4 type="content" name="Link Text" output="selective-output" format="href=&quot;" /><t4 type="content" name="External Link" output="selective-output" format="$value" /><t4 type="content" name="Section Link" output="linkurl" modifiers="nav_sections" /><t4 type="content" name="Link Text" output="selective-output" format="&quot;>" /><t4 type="content" name="Link Text" output="selective-output" format="$value" /><t4 type="content" name="Link Text" output="selective-output" format="</a>" />
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>

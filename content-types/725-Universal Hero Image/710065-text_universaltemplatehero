@@ -1,0 +1,19 @@
+Content Type: Universal Hero Image
+
+Content Layout Info:
+
+Name = text/universaltemplatehero (ID: 710065)
+File Extension = Default
+Syntax Type = HTML/XML
+Content Layout Processor = T4 Standard Content
+
+Content Layout Code:
+<section id="panel-image-caption" class="container-fluid <t4 type="content" name="Background Color" output="normal" display_field="value" />">
+  <div class="container <t4 type="content" name="Container Width" output="normal" display_field="value" />">
+    <div class="grid-wrapper-min-max">
+      <div class="grid-item margin-none image-resize-background-image hero-wrap">
+        <img src="<t4 type="content" name="Image" output="normal" formatter="path/*" />" alt="<t4 type="content" name="Alt Tag" output="normal" />" title="<t4 type="content" name="Alt Tag" output="normal" />" class="<t4 type="content" name="Enlarge Image" output="normal" display_field="value" /> <t4 type="content" name="Image Horizontal Position" output="normal" display_field="value" /><t4 type="content" name="Image Vertical Position" output="normal" display_field="value" />">
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,11 @@
+Content Type: Section Template
+
+Content Layout Info:
+
+Name = text/universaltemplate (ID: 694803)
+File Extension = Default
+Syntax Type = HTML/XML
+Content Layout Processor = T4 Standard Content
+
+Content Layout Code:
+<t4 type="content" name="Full Width" output="selective-output" format="-full-width" />

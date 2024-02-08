@@ -1,0 +1,21 @@
+Content Type: Universal List Card Item
+
+Content Layout Info:
+
+Name = text/universaltemplate (ID: 705272)
+File Extension = Default
+Syntax Type = HTML/XML
+Content Layout Processor = T4 Standard Content
+
+Content Layout Code:
+<t4 type="content" name="First Media Card Item" output="selective-output" format="<section class=&quot;container-fluid&quot;><div class=&quot;container " /><t4 type="content" name="Container Width" output="normal" display_field="value" /><t4 type="content" name="First Media Card Item" output="selective-output" format="&quot;><div class=&quot;grid-wrapper-min-max " /><t4 type="content" name="Default Card Display" output="selective-output" format="card " /><t4 type="content" name="Column Display Count" output="normal" display_field="value" /><t4 type="content" name="First Media Card Item" output="selective-output" format="&quot;>" />
+
+    <div class="grid-item">
+      <div class="content-grid-wrapper">
+        <div class="flex-item content">
+          <t4 type="content" name="Body Content" output="selective-output" modifiers="medialibrary,nav_sections" format="$value" />
+        </div>
+      </div>
+    </div>
+    
+    <t4 type="content" name="Last Media Card Item" output="selective-output" format="</div></div></section>" />

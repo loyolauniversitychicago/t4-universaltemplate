@@ -1,0 +1,200 @@
+Content Type Name: Universal LGS Buttons (ID: 712)
+
+Description: Use with Universal Template 2021
+Minimum User Level: Contributor 
+Options: Enable in direct edit 
+
+-----------------
+Elements
+-----------------
+
+Name
+The Name element
+Plain Text	
+Max size 80
+
+Title
+e.g. Title of the news article
+Plain Text	
+Max size
+350
+
+Set Title Text as All Caps
+e.g. Title of the news article
+Check Box (yes/no)	
+Max size
+80
+
+Center Align Title
+Optional; Default is left aligned
+Check Box (yes/no)	
+Max size
+80
+
+Number of Columns
+e.g. Title of the news article
+Select Box (Universal 1-4 Column Display)	
+Max size
+80
+
+Background Color
+e.g. Title of the news article
+Select Box (Universal Panel Background Colors)		
+Max size
+80
+
+Container Width
+Optional container width; Default is 80%
+Check Box (Container Width)	
+Max size
+80
+
+Button 1 Title
+e.g. Title of the news article
+Plain Text	
+Max size
+200
+
+Button 1 SubTitle
+e.g. Title of the news article
+Plain Text	
+Max size
+200
+
+Button 1 Section Link
+e.g. Title of the news article
+Section/Content Link	
+Max size
+80
+
+Button 1 Media Link
+Optional; Fill in only if Button 1 Section Link and Button 1 External Link are left blank
+Media		
+Max size
+80
+
+Button 1 External Link
+e.g. Title of the news article
+Plain Text
+Max size
+100
+
+Button 2 Title
+e.g. Title of the news article
+Plain Text	
+Max size
+200
+
+Button 2 SubTitle
+e.g. Title of the news article
+Plain Text	
+Max size
+200
+
+Button 2 Section Link
+e.g. Title of the news article
+Section/Content Link	
+Max size
+80
+
+Button 2 Media Link
+Optional; Fill in only if Button 1 Section Link and Button 1 External Link are left blank
+Media		
+Max size
+80
+
+Button 2 External Link
+e.g. Title of the news article
+Plain Text
+Max size
+100
+
+Button 3 Title
+e.g. Title of the news article
+Plain Text	
+Max size
+200
+
+Button 3 SubTitle
+e.g. Title of the news article
+Plain Text	
+Max size
+200
+
+Button 3 Section Link
+e.g. Title of the news article
+Section/Content Link	
+Max size
+80
+
+Button 3 Media Link
+Optional; Fill in only if Button 1 Section Link and Button 1 External Link are left blank
+Media		
+Max size
+80
+
+Button 3 External Link
+e.g. Title of the news article
+Plain Text
+Max size
+100
+
+Button 4 Title
+e.g. Title of the news article
+Plain Text	
+Max size
+200
+
+Button 4 SubTitle
+e.g. Title of the news article
+Plain Text	
+Max size
+200
+
+Button 4 Section Link
+e.g. Title of the news article
+Section/Content Link	
+Max size
+80
+
+Button 4 Media Link
+Optional; Fill in only if Button 1 Section Link and Button 1 External Link are left blank
+Media		
+Max size
+80
+
+Button 4 External Link
+e.g. Title of the news article
+Plain Text
+Max size
+100
+
+Class
+For admin use only;
+Plain Text	
+Max size
+80
+
+Column Width
+Optional for Designer use; If first media card item, this sets the width of each column
+Select Box (Grid Classes (Column Width))
+Max size
+80
+
+Column Margin
+Optional for Designer use; If first media card item, this sets the margin for each column
+Select Box (Grid Gap Classes (Column Margins))
+Max size
+80
+
+Row Margin
+Optional for Designer use; If first media card item, this sets the margin for each row
+Select Box (Grid Row Gap Classes (Row Margins))
+Max size
+80
+
+-----------------
+Content Layouts
+-----------------
+
+text/universaltemplate

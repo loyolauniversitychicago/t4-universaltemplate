@@ -3520,17 +3520,6 @@ button:focus {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
-#main-section-wrapper #panel-numbers .container.container-100 {
-  width: 100%;
-}
-#main-section-wrapper #panel-numbers .container.container-80 {
-  width: 80%;
-}
-#main-section-wrapper #panel-numbers .container.container-50 {
-  width: 50%;
-}
-
 #panel-numbers.container-fluid.bg-overlay .grid-wrapper-min-max.number .flex-item.content h4,
 #panel-numbers.container-fluid.bg-overlay .grid-wrapper-min-max.number .flex-item.content h5,
 #panel-numbers.container-fluid.bg-overlay .grid-wrapper-min-max.number .flex-item.content p {
@@ -4782,6 +4771,50 @@ p.chart-key span {
   background: none;
   z-index: -1;
 }
+#panel-column-chart .container #marker-one span,
+#panel-column-chart .container #marker-two span,
+#panel-column-chart .container #marker-three span,
+#panel-column-chart .container #marker-four span,
+#panel-column-chart .container #marker-five span {
+  display: block;
+}
+#panel-column-chart .container #marker-one span p,
+#panel-column-chart .container #marker-two span p,
+#panel-column-chart .container #marker-three span p,
+#panel-column-chart .container #marker-four span p,
+#panel-column-chart .container #marker-five span p {
+  position: relative;
+  top: -1rem;
+  left: -2.5rem;
+  width: 2rem;
+  font-family: "Antenna Condensed Light", sans-serif !important;
+  font-size: 0.75rem;
+  letter-spacing: 0.0125rem;
+  color: #888888;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+/* scale */
+#panel-column-chart .container #marker-one {
+  top: 100%;
+}
+
+#panel-column-chart .container #marker-two {
+  top: 75%;
+}
+
+#panel-column-chart .container #marker-three {
+  top: 50%;
+}
+
+#panel-column-chart .container #marker-four {
+  top: 25%;
+}
+
+#panel-column-chart .container #marker-five {
+  top: 0%;
+}
 
 /* calculate column width */
 #panel-column-chart .grid-wrapper-min-max {
@@ -5015,6 +5048,49 @@ p.chart-key span {
   width: calc(2.5 * var(--radius));
   height: calc(2.5 * var(--radius));
   background: none;
+  border-radius: 50%;
+  --radius: 30vmin;
+}
+@media (max-width: 735px) {
+  .progress-chart-circle {
+    display: block;
+    width: 100%;
+    height: auto;
+    --radius: 0;
+  }
+}
+
+.progress-chart-title {
+  position: absolute;
+  top: center;
+  left: calc(50% - 10%);
+  padding: 0;
+  width: 20%;
+  height: auto;
+  text-align: center;
+  color: #ffffff;
+}
+@media (max-width: 1023px) {
+  .progress-chart-title {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+.progress-chart-title h2 {
+  margin: 0;
+  font-size: 1.75vw;
+  line-height: 1.75rem !important;
+}
+
+.progress-chart-stat {
+  display: grid;
+  grid-area: layer;
+  grid-row: 1;
+  place-items: center;
+  width: 20vmin;
+  height: 20vmin;
   border-radius: 50%;
   background: #8d0034;
 }

@@ -1,0 +1,41 @@
+
+Content Type Name: Universal Blockquote (ID: 718)
+
+Description: Use with Universal Template 2021
+Minimum User Level: Contributor 
+Options: Enable in direct edit 
+
+-----------------
+Elements
+-----------------
+
+Name
+The Name element
+Plain Text	
+Max size 
+80
+
+Blockquote
+e.g. Title of the news article
+Plain Text
+Max size 
+100
+
+Citation
+e.g. Title of the news article
+Plain Text
+Max size 
+500
+
+Container Width
+Optional; Default is 80%
+Check Box (Container Width)	
+Max size
+80
+
+-----------------
+Content Layouts
+-----------------
+
+text/universaltemplate
+text/universaltemplate_aside

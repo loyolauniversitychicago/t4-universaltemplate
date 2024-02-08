@@ -1,0 +1,103 @@
+Content Type: Tab Image Quotes
+
+Content Layout Info:
+
+Name = text/universaltemplate (ID: 707063)
+File Extension = Default
+Syntax Type = HTML/XML
+Content Layout Processor = T4 Standard Content
+
+Content Layout Code:
+<section id="panel-tabs-images" class="container-fluid">
+    <div class="container <t4 type="content" name="Container Width" output="normal" display_field="value" />">
+    <div class="tabs-images">
+    <div class="grid-wrapper-min-max <t4 type="content" name="Column Display Count" output="normal" display_field="value" /> <t4 type="content" name="Column Width" output="normal" display_field="value" /> <t4 type="content" name="Column Margin" output="normal" display_field="value" /> <t4 type="content" name="Row Margin" output="normal" display_field="value" />">
+      
+    <div class="grid-item">
+    <div class="tab">
+    <div class="tablinks active" onclick="openTab(event, 'tabImageOne')">
+    <t4 type="content" name="Tab 1 Image" output="selective-output" format="<img src=&quot;" /><t4 type="content" name="Tab 1 Image" output="normal" formatter="path/*" /><t4 type="content" name="Tab 1 Image" output="selective-output" format="&quot;" /><t4 type="content" name="Tab 1 Image Alt Text" output="selective-output" format=" title=&quot;$value&quot; alt=&quot;$value&quot;" /><t4 type="content" name="Tab 1 Image" output="selective-output" format=">" />
+    </div>
+    </div>
+    </div>
+    
+    <div class="grid-item">
+    <div class="tab">
+    <div class="tablinks active" onclick="openTab(event, 'tabImageTwo')">
+    <t4 type="content" name="Tab 2 Image" output="selective-output" format="<img src=&quot;" /><t4 type="content" name="Tab 2 Image" output="normal" formatter="path/*" /><t4 type="content" name="Tab 2 Image" output="selective-output" format="&quot;" /><t4 type="content" name="Tab 2 Image Alt Text" output="selective-output" format=" title=&quot;$value&quot; alt=&quot;$value&quot;" /><t4 type="content" name="Tab 2 Image" output="selective-output" format=">" />
+    </div>
+    </div>
+    </div>
+      
+    <div class="grid-item">
+    <div class="tab">
+    <div class="tablinks" onclick="openTab(event, 'tabImageThree')">
+    <t4 type="content" name="Tab 3 Image" output="selective-output" format="<img src=&quot;" /><t4 type="content" name="Tab 3 Image" output="normal" formatter="path/*" /><t4 type="content" name="Tab 3 Image" output="selective-output" format="&quot;" /><t4 type="content" name="Tab 3 Image Alt Text" output="selective-output" format=" title=&quot;$value&quot; alt=&quot;$value&quot;" /><t4 type="content" name="Tab 3 Image" output="selective-output" format=">" />
+    </div>
+    </div>
+    </div>
+                  
+    <div class="grid-item">
+    <div class="tab">
+    <div class="tablinks" onclick="openTab(event, 'tabImageFour')">
+    <t4 type="content" name="Tab 4 Image" output="selective-output" format="<img src=&quot;" /><t4 type="content" name="Tab 4 Image" output="normal" formatter="path/*" /><t4 type="content" name="Tab 4 Image" output="selective-output" format="&quot;" /><t4 type="content" name="Tab 4 Image Alt Text" output="selective-output" format=" title=&quot;$value&quot; alt=&quot;$value&quot;" /><t4 type="content" name="Tab 4 Image" output="selective-output" format=">" />
+    </div>
+    </div>
+    </div>
+                  
+    </div>
+    </div>
+    
+    <div class="grid-wrapper-min-max">
+    <div class="grid-item">
+    <div id="tabImageOne" class="tabcontent" style="display: none;">
+    <t4 type="content" name="Tab 1 Title" output="selective-output" format="<h5 style=&quot;text-align: center !important;&quot;>$value</h5>" />
+    <blockquote><t4 type="content" name="Tab 1 Quote" output="selective-output" format="$value" />
+    <t4 type="content" name="Tab 1 Citation" output="selective-output" format="<cite>$value</cite>" />
+    </blockquote>
+    </div>
+    <div id="tabImageTwo" class="tabcontent" style="display: none;">
+    <t4 type="content" name="Tab 2 Title" output="selective-output" format="<h5 style=&quot;text-align: center !important;&quot;>$value</h5>" />
+    <blockquote><t4 type="content" name="Tab 2 Quote" output="selective-output" format="$value" />
+    <t4 type="content" name="Tab 2 Citation" output="selective-output" format="<cite>$value</cite>" />
+    </blockquote>
+    </div>
+    <div id="tabImageThree" class="tabcontent" style="display: block;">
+    <t4 type="content" name="Tab 3 Title" output="selective-output" format="<h5 style=&quot;text-align: center !important;&quot;>$value</h5>" />
+    <blockquote><t4 type="content" name="Tab 3 Quote" output="selective-output" format="$value" />
+    <t4 type="content" name="Tab 3 Citation" output="selective-output" format="<cite>$value</cite>" />
+    </blockquote>
+    </div>    
+    <div id="tabImageFour" class="tabcontent" style="display: block;">
+    <t4 type="content" name="Tab 4 Title" output="selective-output" format="<h5 style=&quot;text-align: center !important;&quot;>$value</h5>" />
+    <blockquote><t4 type="content" name="Tab 4 Quote" output="selective-output" format="$value" />
+    <t4 type="content" name="Tab 4 Citation" output="selective-output" format="<cite>$value</cite>" />
+    </blockquote>
+    </div>         
+    </div>
+                <script>
+                    openTab(event, "Tab")
+                    function openTab(evt, tabName) {
+                        var i, tabcontent, tablinks;
+                        tabcontent = document.getElementsByClassName("tabcontent");
+                        for (i = 0; i < tabcontent.length; i++) {
+                            tabcontent[i].style.display = "none";
+                        }
+                        tablinks = document.getElementsByClassName("tablinks");
+                        for (i = 0; i < tabcontent.length; i++) {
+                            tablinks[i].classList.remove("active");
+                        }
+                        document.getElementById(tabName).style.display = "block";
+                        if (evt) {
+                            evt.currentTarget.classList.add("active");
+                        }
+                    }
+                </script>
+                <script>
+                    var tabButton = document.getElementsByClassName("tablinks")[1];
+                    tabButton.click();
+                </script>
+      
+    </div>
+    </div>
+    </section>

@@ -1,0 +1,66 @@
+
+Content Type Name: Universal Hero Image (ID: 725)
+
+Description: Use with Universal Template 2021
+Minimum User Level: Contributor 
+Options: Enable in direct edit
+
+-----------------
+Elements
+-----------------
+
+Name
+The Name element
+Plain Text	
+Max size 
+80
+
+Image
+Select the image from the media library
+Media 
+Max size
+80
+Required
+
+Alt Tag
+enter the image alt text
+Plain Text
+Max side
+350
+Required
+
+Container Width
+Optional; set container width
+Check Box (Container Width)	 
+Max size
+80
+
+Background Color
+Optional; select the background color
+Check Box (Universal Panel Background Colors)	 
+Max size
+80
+
+Enlarge Image
+Optional; Select enlarge image value for mobile display
+Select Box (Image Enlarge Classes)	 
+Max size
+80
+
+Image Horizontal Position
+Optional; Select horizontal position of image on mobile display
+Select Box (Image Reposition Classes (Horizontal))	 
+Max size
+80
+
+Image Vertical Position
+Optional; Select vertical position of image on mobile display
+Select Box (Image Reposition Classes (Vertical))	 
+Max size
+80
+
+-----------------
+Content Layouts
+-----------------
+
+text/universaltemplatehero	

@@ -1,0 +1,50 @@
+Content Type Name: Universal Infobox (ID: 734)
+
+Description: Use with Universal Template 2021
+Minimum User Level: Contributor 
+Options: Enable in direct edit 
+
+-----------------
+Elements
+-----------------
+
+Name 
+The Name element
+Plain Text	
+Max size 
+80
+
+Title
+Description
+e.g. Title of the news article
+Plain Text
+Max size 
+80
+
+Body
+Description
+e.g. Title of the news article
+HTML
+Max size 
+100000
+
+Container Width
+Description
+Optional; Default is 80%
+Check Box (Container Width)	
+Max size 
+80
+
+Background Color
+Description
+Optional; Default is Gray
+Check Box (Universal Panel Background Colors)
+Max size 
+80
+
+-----------------
+Content Layouts
+-----------------
+
+text/universaltemplate
+text/universaltemplate_aside

@@ -1,0 +1,29 @@
+Content Type: Accordion Item
+
+Content Layout Info:
+
+Name = text/universaltemplate (ID: 693945)
+File Extension = Default
+Syntax Type = HTML/XML
+Content Layout Processor = T4 Standard Content
+
+Content Layout Code:
+
+<!-- Accordion Item text/universaltemplate -->
+<t4 type="content" name="First Panel" output="selective-output" format="<!-- accordions --><section id=&quot;panel-accordion&quot; class=&quot;container-fluid" /><t4 type="content" name="Remove Top Margin" output="selective-output" format=" m-t-0" /><t4 type="content" name="Remove Bottom Margin" output="selective-output" format=" m-b-0" /><t4 type="content" name="First Panel" output="selective-output" format="&quot;><div class=&quot;container " /><t4 type="content" name="Container Width" output="normal" display_field="value" /><t4 type="content" name="First Panel" output="selective-output" format="&quot;><div class=&quot;grid-wrapper-min-max&quot;><div class=&quot;grid-item&quot;><div class=&quot;js-accordion&quot; data-accordion-prefix-classes=&quot;minimalist&quot; data-accordion-cool-selectors=&quot;1&quot; data-accordion-multiselectable=&quot;none&quot;>" />
+
+<!-- accordion item -->
+<div id="<t4 type="meta" meta="content_id" />">
+<t4 type="content" name="Title" output="selective-output" format="<h4 class=&quot;js-accordion__header&quot;>$value</h4>" />
+<div class="js-accordion__panel">
+<t4 type="content" name="Body" output="selective-output" modifiers="medialibrary,nav_sections" format="<div class=&quot;standard-paragraph&quot;>" />
+<t4 type="content" name="Blurb" output="selective-output" format="<p><em>$value</em></p>" />
+<t4 type="content" name="Body" output="selective-output" modifiers="medialibrary,nav_sections" format="$value" />
+<t4 type="content" name="Body" output="selective-output" modifiers="medialibrary,nav_sections" format="</div>" />  
+<t4 type="content" name="Mark as Parent Accordion" output="selective-output" format="<div class=&quot;js-accordion&quot; data-accordion-prefix-classes=&quot;minimalist-css&quot;>" />
+<t4 type="navigation" name="Get Accordion Nested Items" id="1016" />
+<t4 type="content" name="Mark as Parent Accordion" output="selective-output" format="</div>" />
+</div>
+</div>
+
+<t4 type="content" name="Last Panel" output="selective-output" format="</div></div></div></div></section>" />

@@ -1,0 +1,92 @@
+Content Type Name: Lead Image (ID: 711)
+
+Description: Use with Universal Template 2021
+Minimum User Level: Contributor 
+Options: Enable in direct edit 
+
+-----------------
+Elements
+-----------------
+
+Name
+The Name element
+Plain Text	
+Max size 80
+
+Image
+e.g. Title of the news article
+Media
+Max size
+80
+
+Image Alt Text
+e.g. Title of the news article
+Plain Text	
+Max size
+80
+
+Label
+e.g. Title of the news article
+Plain Text	
+Max size
+80
+
+Title
+e.g. Title of the news article
+Plain Text	
+Max size
+350
+
+Body
+e.g. Title of the news article
+HTML
+Max size
+3000
+
+Container Width
+Optional 
+Check Box (Container Width)	
+Max size
+80
+
+Overlay Text?
+Optional; Check this box if you want to display the text over the image
+Check Box (yes/no)
+Max size
+80
+
+Enlarge Image
+Optional; Select enlarge image value for mobile display
+Select Box (Image Enlarge Classes)
+Max size
+80
+
+Image Horizontal Position
+Optional; Select horizontal position of image on mobile display
+Select Box (Image Reposition Classes (Horizontal))	
+Max size
+80
+
+Image Vertical Position
+Optional; Select vertical position of image on mobile display
+Select Box (Image Reposition Classes (Vertical))	
+Max size
+80
+
+Class
+FOR ADMIN USE ONLY; enter custom class for background image positioning
+Plain Text
+Max size
+150
+
+Center Align Text Content?
+e.g. Title of the news article
+Check Box (yes/no)
+Max size
+3000
+
+-----------------
+Content Layouts
+-----------------
+
+text/universaltemplate

@@ -1,0 +1,34 @@
+
+Content Type Name: Universal Code Only Template (ID: 731)
+
+Description: Use with Universal Template 2021
+Minimum User Level: Moderator 
+Primary group: Administrators
+Shared groups: Code Only CT Access: Read only access
+
+-----------------
+Elements
+-----------------
+
+Name
+The name of the piece of content
+Plain Text	
+Max size 
+80
+Use as filename
+
+Code
+e.g. Title of the news article
+Plain Text
+Max size
+900000
+Required
+
+-----------------
+Content Layouts
+-----------------
+
+text/csswriteuniversaltemplate	
+text/jswriteuniversaltemplate	
+text/universalprogrammingmodule	
+text/universaltemplate

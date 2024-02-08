@@ -1,0 +1,30 @@
+Content Type: Lead Image
+
+Content Layout Info:
+
+Name = text/universaltemplate (ID: 705269)
+File Extension = Default
+Syntax Type = HTML/XML
+Content Layout Processor = T4 Standard Content
+
+Content Layout Code:
+<section id="panel-image" class="container-fluid hero-image-lead<t4 type="content" name="Class" output="selective-output" format=" $value" /> <t4 type="content" name="Overlay Text?" output="selective-output" format="full-overlay" />">
+<div class="container container-100">
+<div class="grid-wrapper-min-max">
+<div class="grid-item margin-none image-resize-background-image hero-wrap"> 
+<img src="<t4 type="content" name="Image" output="normal" formatter="path/*" />" <t4 type="content" name="Image Alt Text" output="selective-output" format="alt=&quot;$value&quot; title=&quot;$value&quot;" /> class="<t4 type="content" name="Enlarge Image" output="normal" display_field="value" /> <t4 type="content" name="Image Horizontal Position" output="normal" display_field="value" /><t4 type="content" name="Image Vertical Position" output="normal" display_field="value" />">
+</div>
+</div>
+</div>
+<div class="grid-wrapper-min-max">
+<div class="grid-item">
+<div class="hero-image-content<t4 type="content" name="Center Align Text Content?" output="selective-output" format=" center" />">
+<t4 type="content" name="Label" output="selective-output" format="<h6>$value</h6>" />
+<t4 type="content" name="Title" output="selective-output" format="<h1>$value</h1>" />
+<div class="intro-paragraph sans-serif">
+<t4 type="content" name="Body" output="selective-output" modifiers="medialibrary,nav_sections" format="$value" />
+</div>
+</div>
+</div>
+</div>
+</section>

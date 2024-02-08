@@ -1,0 +1,158 @@
+Content Type Name: Universal List Card Item (ID: 712)
+
+Description: Use with Universal Template 2021
+Minimum User Level: Contributor 
+Options: Enable in direct edit 
+
+-----------------
+Elements
+-----------------
+
+Name
+The Name element
+Plain Text	
+Max size 80
+
+First Media Card Item
+Mark as First media card item?
+Check Box (yes/no)	
+Max size
+80
+
+Last Media Card Item
+Mark as Last media card item?
+Check Box (yes/no)	
+Max size
+80
+
+Column Display Count
+If first media card item, select the number of column display
+Select Box (Universal 1-4 Column Display)
+Max size
+80
+
+Default Card Display
+If first media card item, check this box to display cards in default card style
+Check Box (yes/no)	
+Max size
+80
+
+Container Width
+Optional; Default container width is 80%; Set only for first media card item content
+Check Box (Container Width)	
+Max size
+80
+
+Label
+e.g. Title of the news article
+Plain Text	
+Max size
+100
+
+Title
+e.g. Title of the news article
+Plain Text	
+Max size
+500
+
+Readout
+e.g. Title of the news article
+Plain Text	
+Max size
+150
+
+Circle Numbers
+Use only for Ordered Lists
+HTML
+Max size
+50000
+
+Body Content
+e.g. Title of the news article
+Plain Text	
+Max size
+150
+
+Link Text
+Optional CTA
+Plain Text	
+Max size
+80
+
+Internal Page Link
+e.g. Title of the news article
+Section/Content Link
+Max size
+150
+
+External Page Link
+e.g. Title of the news article
+Plain Text	
+Max size
+500
+
+Button 1 Color
+e.g. Title of the news article
+Select Box (Button Colors)
+Max size
+80
+
+Button 1 Text
+e.g. Title of the news article
+Plain Text	
+Max size
+200
+
+Button 1 Link
+e.g. Title of the news article
+Plain Text
+Max size
+500
+
+Button 1 Link for Download?
+e.g. Title of the news article
+Check Box (yes/no)		
+Max size
+80
+
+Button 2 Color
+e.g. Title of the news article
+Select Box (Button Colors)
+Max size
+80
+
+Button 2 Text
+e.g. Title of the news article
+Plain Text	
+Max size
+200
+
+Button 2 Link
+e.g. Title of the news article
+Plain Text
+Max size
+500
+
+Button 3 Color
+e.g. Title of the news article
+Select Box (Button Colors)
+Max size
+80
+
+Button 3 Text
+e.g. Title of the news article
+Plain Text	
+Max size
+200
+
+Button 3 Link
+e.g. Title of the news article
+Plain Text
+Max size
+500
+
+-----------------
+Content Layouts
+-----------------
+
+text/universaltemplate

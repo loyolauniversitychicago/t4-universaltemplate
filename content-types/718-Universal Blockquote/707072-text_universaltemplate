@@ -1,0 +1,23 @@
+Content Type: Universal Blockquote
+
+Content Layout Info:
+
+Name = text/universaltemplate (ID: 707072)
+File Extension = Default
+Syntax Type = HTML/XML
+Content Layout Processor = T4 Standard Content
+
+Content Layout Code:
+<section id="panel-blockquote" class="container-fluid">
+	<div class="container <t4 type="content" name="Container Width" output="normal" display_field="value" />">
+    <div class="grid-wrapper-min-max one-column">
+      <div class="grid-item">
+				<div class="content-blockquote">
+					<blockquote>
+						<t4 type="content" name="Blockquote" output="selective-output" format="$value" /> <t4 type="content" name="Citation" output="selective-output" format="<cite>$value</cite>" />
+					</blockquote>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

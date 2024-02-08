@@ -1,0 +1,20 @@
+Content Type: Universal Pane Button CTA
+
+Content Layout Info:
+
+Name = text/universaltemplate (ID: 726637)
+File Extension = Default
+Syntax Type = HTML/XML
+Content Layout Processor = T4 Standard Content
+
+Content Layout Code:
+<section id="panel-button-cta" class="container-fluid <t4 type="content" name="Panel Background Color" output="normal" display_field="value" /> <t4 type="content" name="Class" output="selective-output" format="$value" />">
+<div class="container<t4 type="content" name="Center Align Content?" output="selective-output" format=" center" /> <t4 type="content" name="Apply Content Padding" output="normal" display_field="value" /> <t4 type="content" name="Container Width" output="normal" display_field="value" />">
+<div class="grid-wrapper-min-max">
+<div class="grid-item <t4 type="content" name="Button Color" output="normal" display_field="value" />">
+<t4 type="content" name="Lead In Text" output="selective-output" modifiers="htmlentities" format="<h5>$value</h5>" />        
+<t4 type="content" name="Button Text" output="selective-output" format="<button class=&quot;container-100&quot;" /><t4 type="content" name="External Link" output="selective-output" format=" onclick=&quot;window.location.href=&#39;$value&#39;;&quot;" /><t4 type="content" name="Section Link" output="selective-output" modifiers="nav_sections" format=" onclick=&quot;window.open('" /><t4 type="content" name="Section Link" output="linkurl" modifiers="nav_sections" /><t4 type="content" name="Section Link" output="selective-output" modifiers="nav_sections" format="','_blank')&quot;" /><t4 type="content" name="Media Link" output="selective-output" format=" onclick=&quot;window.location.href=&#39;$value&#39;;&quot;" formatter="path/*" /><t4 type="content" name="Button Text" output="selective-output" format=">$value</button>" /><t4 type="content" name="Body Content" output="selective-output" modifiers="medialibrary,nav_sections" format="$value" />
+</div>
+</div>
+</div>
+</section>

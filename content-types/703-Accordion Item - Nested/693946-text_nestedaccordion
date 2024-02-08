@@ -1,0 +1,16 @@
+Content Type: Nested Accordion Item
+
+Content Layout Info:
+
+Name = text/nestedaccordion (ID: 693946)
+File Extension = Default
+Syntax Type = HTML/XML
+Content Layout Processor = T4 Standard Content
+
+Content Layout Code:
+<!-- Accordion Nested Item text/nestedaccordion -->
+<t4 type="content" name="Title" output="selective-output"
+    format="<!-- accordion item --><h3 class=&quot;js-accordion__header&quot;>$value</h3>" />
+
+<t4 type="content" name="Body" output="selective-output" modifiers="medialibrary,nav_sections"
+    format="<div class=&quot;js-accordion__panel&quot;><div class=&quot;standard-paragraph&quot;>$value</div></div>" />

@@ -1,0 +1,81 @@
+Content Type Name: Accordion Item (ID: 702)
+
+Description: Use with Universal Template 2021
+Minimum User Level: Contributor 
+Options: Enable in direct edit 
+
+-----------------
+Elements
+-----------------
+
+Name
+The Name element
+Plain Text	
+Max size 80
+
+Title
+e.g. Title of the news article
+Plain Text	
+Max size
+300
+
+Blurb
+Optional text before the body dropdown
+Plain Text	
+Max size
+350
+
+Body
+e.g. Title of the news article
+HTML
+Max size
+100000
+
+Panel ID
+This should match the Panel ID for all nested accordion items
+Plain Text	
+Max size
+80
+
+First Panel
+Check this box if this is the FIRST accordion item on your page
+Check Box (yes/no)
+Max size
+80
+
+Last Panel
+Check this box if this is the LAST accordion item on your page
+Check Box (yes/no)
+Max size
+80
+
+Mark as Parent Accordion
+If this box is checked, enter Panel ID
+Check Box (yes/no)
+Max size
+80
+
+Container Width
+Optional; Fill in ONLY for the FIRST accordion item on your page
+Check Box (Container Width)	
+Max size
+80
+
+Remove Top Margin
+Optional; Set ONLY for the FIRST accordion item on your page
+Check Box (yes/no)	
+Max size
+80
+
+Remove Bottom Margin
+Optional; Set ONLY for the FIRST accordion item on your page
+Check Box (yes/no)	
+Max size
+80
+
+-----------------
+Content Layouts
+-----------------
+
+text/universaltemplate	
+text/universaltemplate_aside
