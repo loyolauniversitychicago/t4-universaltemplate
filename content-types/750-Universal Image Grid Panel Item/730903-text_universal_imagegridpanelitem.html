@@ -1,0 +1,15 @@
+Content Type: Universal Image Grid Panel Item
+
+Content Layout Info:
+
+Name = text/universal_imagegridpanelitem (ID: 730903)
+File Extension = Default
+Syntax Type = HTML/XML
+Content Layout Processor = T4 Standard Content
+
+Content Layout Code (updated 1/31/24):
+
+<div class="grid-item <t4 type="content" name="Hide Class" output="normal" display_field="value" />">
+<img src="<t4 type="content" name="Image" output="normal" formatter="path/*" />" <t4 type="content" name="Title" output="selective-output" format="alt=&quot;$value&quot; title=&quot;$value&quot;" />>
+</div>
+
