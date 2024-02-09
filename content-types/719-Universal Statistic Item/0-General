@@ -1,0 +1,112 @@
+Content Type Name: Universal Statistic Item (ID: 719)
+
+Description: Use with Universal Template 2021
+Minimum User Level: Contributor 
+Options: Enable in direct edit 
+
+-----------------
+Elements
+-----------------
+
+Name
+The Name element
+Plain Text	
+Max size 
+80
+
+Mark as First Statistic Item
+e.g. Title of the news article
+Check Box (yes/no)
+Max size
+80
+
+Mark as Last Statistic Item
+e.g. Title of the news article
+Check Box (yes/no)
+Max size
+80
+
+Container Width
+Optional; Set only for first content item; Default is 80%
+Check Box (Container Width)	
+Max size
+80
+
+Number of Columns
+Optional; Set only for first content item
+Check Box (Statistic or Number Text Size)	
+Max size
+80
+
+Number Text Size
+Optional; Adds bottom margin to heading 1
+Check Box (Margin Bottom Size)	
+Max size
+80
+
+Title
+H4
+Plain Text	
+Max size
+80
+
+Readout
+H5
+Plain Text	
+Max size
+350
+
+CTA Link Text
+Optional
+Plain Text
+Max size
+80
+
+Section Link for CTA
+Optional
+Section/Content Link
+Max size
+80
+
+External Link for CTA
+Optional
+Plain Text	
+Max size
+250
+
+Background Image
+Optional; Must only be set for the first Statistic Item content only
+Media
+Max size
+80
+
+Background Color
+Optional; Must only be set for the first Statistic Item content only
+Check Box (Universal Panel Background Colors)	
+Max size
+80
+
+Column Width
+Optional for Designer use; If first media card item, this sets the width of each column
+Select Box (Grid Classes (Column Width))
+Max size
+80
+
+Column Margin
+Optional for Designer use; If first media card item, this sets the margin for each column
+Select Box (Grid Gap Classes (Column Margins))	
+Max size
+80
+
+Row Margin
+Optional for Designer use; If first media card item, this sets the margin for each row
+Select Box (Grid Row Gap Classes (Row Margins))
+Max size
+80
+
+-----------------
+Content Layouts
+-----------------
+
+text/universaltemplate
+text/universaltemplate_aside

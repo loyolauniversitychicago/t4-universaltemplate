@@ -1,0 +1,27 @@
+Content Type: Panel Divider
+
+Content Layout Info:
+
+Name = text/universaltemplate (ID: 705274)
+File Extension = Default
+Syntax Type = HTML/XML
+Content Layout Processor = T4 Standard Content
+
+Content Layout Code:
+<section id="panel-text" class="container-fluid <t4 type="content" name="Background Color" output="normal" display_field="value" />"><div class="container <t4 type="content" name="Container Width" output="normal" display_field="value" /> <t4 type="content" name="Add Content Padding" output="normal" display_field="value" />"><div class="grid-wrapper-min-max one-column"><div class="grid-item"><div class="content-grid-wrapper">
+    <div class="flex-item content<t4 type="content" name="Center Align Text" output="selective-output" format=" center" /><t4 type="content" name="Set Header Text as All Caps" output="selective-output" format=" uppercase" />">
+    
+    <t4 type="content" name="Heading 6" output="selective-output" format="<h6 class=&quot;" /><t4 type="content" name="Set Heading 6 Font as Antenna Compressed?" output="selective-output" format="antenna-compressed-headline" /> <t4 type="content" name="Set Heading 6 Margin Top" output="normal" display_field="value" /> <t4 type="content" name="Set Heading 6 Margin Bottom" output="normal" display_field="value" /><t4 type="content" name="Heading 6" output="selective-output" format="&quot;>$value</h6>" />
+      
+    <t4 type="content" name="Heading 1" output="selective-output" format="<h1 class=&quot;" /><t4 type="content" name="Set Heading 1 Font as Antenna Compressed?" output="selective-output" format="antenna-compressed-headline" /> <t4 type="content" name="Set Heading 1 Margin Top" output="normal" display_field="value" /> <t4 type="content" name="Set Heading 1 Margin Bottom" output="normal" display_field="value" /><t4 type="content" name="Heading 1" output="selective-output" format="&quot;>$value</h1>" />  
+      
+    <t4 type="content" name="Heading 2" output="selective-output" format="<h2 class=&quot;" /><t4 type="content" name="Set Heading 2 Font as Antenna Compressed?" output="selective-output" format="antenna-compressed-headline" /> <t4 type="content" name="Set Heading 2 Margin Top" output="normal" display_field="value" /> <t4 type="content" name="Set Heading 2 Margin Bottom" output="normal" display_field="value" /><t4 type="content" name="Heading 2" output="selective-output" format="&quot;>$value</h2>" />  
+      
+    <t4 type="content" name="Heading 3" output="selective-output" format="<h3 class=&quot;" /><t4 type="content" name="Set Heading 3 Font as Antenna Compressed?" output="selective-output" format="antenna-compressed-headline" /> <t4 type="content" name="Set Heading 3 Margin Top" output="normal" display_field="value" /> <t4 type="content" name="Set Heading 3 Margin Bottom" output="normal" display_field="value" /><t4 type="content" name="Heading 3" output="selective-output" format="&quot;>$value</h3>" />  
+      
+    <t4 type="content" name="Heading 4" output="selective-output" format="<h4 class=&quot;" /><t4 type="content" name="Set Heading 4 Font as Antenna Compressed?" output="selective-output" format="antenna-compressed-headline" /> <t4 type="content" name="Set Heading 4 Margin Top" output="normal" display_field="value" /> <t4 type="content" name="Set Heading 4 Margin Bottom" output="normal" display_field="value" /><t4 type="content" name="Heading 4" output="selective-output" format="&quot;>$value</h4>" />
+      
+    <t4 type="content" name="Heading 5" output="selective-output" format="<h5 class=&quot;" /><t4 type="content" name="Set Heading 5 Font as Antenna Compressed?" output="selective-output" format="antenna-compressed-headline" /> <t4 type="content" name="Set Heading 5 Margin Top" output="normal" display_field="value" /> <t4 type="content" name="Set Heading 5 Margin Bottom" output="normal" display_field="value" /><t4 type="content" name="Heading 5" output="selective-output" format="&quot;>$value</h5>" />
+      
+    </div>
+    </div></div></div></div></section>

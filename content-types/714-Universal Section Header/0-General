@@ -1,0 +1,195 @@
+Content Type Name: Universal Section Header (ID: 714)
+
+Description: Use with Universal Template 2021
+Minimum User Level: Contributor 
+Options: Enable in direct edit 
+
+-----------------
+Elements
+-----------------
+
+Name
+The Name element
+Plain Text	
+Max size 
+80
+
+Heading 1
+e.g. Title of the news article
+Plain Text	
+Max size
+250
+
+Set Heading 1 Font as Antenna Compressed?
+Optional; Default heading 1 font is Antenna Condensed Bold
+Check Box (yes/no)	
+Max size
+80
+
+Set Heading 1 Margin Top
+Optional; Adds top margin to heading 1
+Check Box (Margin Top Size)	
+Max size
+80
+
+Set Heading 1 Margin Bottom
+Optional; Adds bottom margin to heading 1
+Check Box (Margin Bottom Size)	
+Max size
+80
+
+Heading 2
+e.g. Title of the news article
+Plain Text	
+Max size
+250
+
+Set Heading 2 Font as Antenna Compressed?
+Optional; Default heading 1 font is Antenna Condensed Bold
+Check Box (yes/no)	
+Max size
+80
+
+Set Heading 2 Margin Top
+Optional; Adds top margin to heading 1
+Check Box (Margin Top Size)	
+Max size
+80
+
+Set Heading 2 Margin Bottom
+Optional; Adds bottom margin to heading 1
+Check Box (Margin Bottom Size)	
+Max size
+80
+
+Heading 3
+e.g. Title of the news article
+Plain Text	
+Max size
+250
+
+Set Heading 3 Font as Antenna Compressed?
+Optional; Default heading 1 font is Antenna Condensed Bold
+Check Box (yes/no)	
+Max size
+80
+
+Set Heading 3 Margin Top
+Optional; Adds top margin to heading 1
+Check Box (Margin Top Size)	
+Max size
+80
+
+Set Heading 3 Margin Bottom
+Optional; Adds bottom margin to heading 1
+Check Box (Margin Bottom Size)	
+Max size
+80
+
+Heading 4
+e.g. Title of the news article
+Plain Text	
+Max size
+250
+
+Set Heading 4 Font as Antenna Compressed?
+Optional; Default heading 1 font is Antenna Condensed Bold
+Check Box (yes/no)	
+Max size
+80
+
+Set Heading 4 Margin Top
+Optional; Adds top margin to heading 1
+Check Box (Margin Top Size)	
+Max size
+80
+
+Set Heading 4 Margin Bottom
+Optional; Adds bottom margin to heading 1
+Check Box (Margin Bottom Size)	
+Max size
+80
+
+Heading 5
+e.g. Title of the news article
+Plain Text	
+Max size
+250
+
+Set Heading 5 Font as Antenna Compressed?
+Optional; Default heading 1 font is Antenna Condensed Bold
+Check Box (yes/no)	
+Max size
+80
+
+Set Heading 5 Margin Top
+Optional; Adds top margin to heading 1
+Check Box (Margin Top Size)	
+Max size
+80
+
+Set Heading 5 Margin Bottom
+Optional; Adds bottom margin to heading 1
+Check Box (Margin Bottom Size)	
+Max size
+80
+
+Heading 6
+e.g. Title of the news article
+Plain Text	
+Max size
+250
+
+Set Heading 6 Font as Antenna Compressed?
+Optional; Default heading 1 font is Antenna Condensed Bold
+Check Box (yes/no)	
+Max size
+80
+
+Set Heading 6 Margin Top
+Optional; Adds top margin to heading 1
+Check Box (Margin Top Size)	
+Max size
+80
+
+Set Heading 6 Margin Bottom
+Optional; Adds bottom margin to heading 1
+Check Box (Margin Bottom Size)	
+Max size
+80
+
+Background Color
+e.g. Title of the news article
+Select Box (Universal Panel Background Colors)	
+Max size
+80
+
+Center Align Text
+Optional; Default is left aligned.
+Check Box (yes/no)	
+Max size
+80
+
+Set Header Text as All Caps
+Optional
+Check Box (yes/no)	
+Max size
+80
+
+Container Width
+Optional; Adds top margin to heading 1
+Check Box (Margin Top Size)	
+Max size
+80
+
+Add Content Padding
+Optional; Adds padding around container; no padding is applied by default
+Check Box (Padding Size)	
+Max size
+80
+
+-----------------
+Content Layouts
+-----------------
+
+text/universaltemplate
