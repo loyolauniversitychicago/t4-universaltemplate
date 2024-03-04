@@ -1,0 +1,180 @@
+Content Type Name: Social Networking Links (ID: 49)
+
+Description: Links for the Facebook, Twitter and other Social Networking Accounts.
+
+Minimum User Level: Contributor 
+
+Options: Enable in direct edit 
+
+-----------------
+Elements
+-----------------
+
+Name
+The name of the piece of content
+Plain Text	
+Max size 80
+
+Calendar Link
+Link to Calendar
+Plain Text	
+Max size 2000
+
+News Link
+Link to News
+Plain Text	
+Max size 2000
+
+RSS Link
+Link to RSS
+Plain Text	
+Max size 2000
+
+igNation Link
+Link to igNation; depreciated for Universal Template
+Plain Text	
+Max size 2000
+
+Facebook Link
+Link to Facebook
+Plain Text	
+Max size 2000
+
+X Link
+Description
+Link to X; formerly Twitter
+Plain Text	
+Max size 2000
+
+YouTube Link
+Link to YouTube
+Plain Text	
+Max size 2000
+
+Flickr Link
+Link to Flickr
+Plain Text	
+Max size 2000
+
+Linkedin Link
+Link to Linkedin
+Plain Text	
+Max size 2000
+
+Pinterest Link
+Link to Pinterest
+Plain Text	
+Max size 2000
+
+Instagram Link
+Link to Instagram
+Plain Text	
+Max size 2000
+
+Threads Link
+Link to Threads
+Plain Text	
+Max size 2000
+
+Blog Link
+Link to Blog
+Plain Text	
+Max size 2000
+
+GooglePlus Link
+Link to Google+; depreciated for Universal Template
+Plain Text	
+Max size 2000
+
+Website Link
+Description
+e.g. Title of the news article
+Plain Text	Max size
+2000
+
+Website Name
+e.g. Title of the news article
+Plain Text	
+Max size 2000
+
+Contact Link
+Link to Contact Page
+Plain Text	
+Max size 2000
+
+-----------------
+Content Layouts
+-----------------
+text/socialmediauniversal
+
+Default 
+HTML/XML 
+T4 Standard Content 
+
+<t4 type="content" name="Facebook Link" output="selective-output" modifiers="" format="<!-- FACEBOOK --><a target=&quot;_blank&quot; title=&quot;Facebook Link&quot; href=&quot;$value&quot;><i class=&quot;fa-brands fa-facebook&quot;></i></a>" />
+ 
+<t4 type="content" name="X Link" output="selective-output" modifiers="" format="<!-- X/TWITTER --><a target=&quot;_blank&quot; title=&quot;X Link&quot;href=&quot;$value&quot;><i class=&quot;fa-brands fa-x-twitter&quot;></i></a>" />
+
+<t4 type="content" name="Flickr Link" output="selective-output" modifiers="" format="<!-- FLICKR --><a target=&quot;_blank&quot; title=&quot;Flickr Link&quot; href=&quot;$value&quot;><i class=&quot;fa-brands fa-flickr&quot;></i></a>" />
+
+<t4 type="content" name="Linkedin Link" output="selective-output" modifiers="" format="<!-- LINKEDIN --><a target=&quot;_blank&quot; title=&quot;LinkedIn Link&quot; href=&quot;$value&quot;><i class=&quot;fa-brands fa-linkedin&quot;></i></a>" />
+
+<t4 type="content" name="Instagram Link" output="selective-output" modifiers="" format="<!-- INSTAGRAM --><a target=&quot;_blank&quot; title=&quot;Instragram Link&quot; href=&quot;$value&quot;><i class=&quot;fa-brands fa-instagram&quot;></i></a>" />
+
+<t4 type="content" name="Threads Link" output="selective-output" format="<!-- THREADS --> <a target=&quot;_blank&quot; title=&quot;Threads Link&quot; href=&quot;$value&quot;><i class=&quot;fa-brands fa-threads&quot;></i></a>" />
+ 
+<t4 type="content" name="Pinterest Link" output="selective-output" modifiers="" format="<!-- PINTEREST --><a target=&quot;_blank&quot; title=&quot;Pinterest Link&quot; href=&quot;$value&quot;><i class=&quot;fa-brands fa-pinterest&quot;></i></a>" />
+
+<t4 type="content" name="You Tube Link" output="selective-output" modifiers="" format="<!-- YOUTUBE --><a target=&quot;_blank&quot; title=&quot;YouTube Link&quot; href=&quot;$value&quot;><i class=&quot;fa-brands fa-youtube&quot;></i></a>" />
+
+ <t4 type="content" name="GooglePlus Link" output="selective-output" format="<!-- GOOGLE PLUS --><a target=&quot;_blank&quot; title=&quot;GooglePlus Link&quot; href=&quot;$value&quot;><i class=&quot;fa-brands fa-google-plus&quot;></i></a>" />
+
+<t4 type="content" name="Website Link" output="selective-output" modifiers="" format="<!-- CONTACT US --><a target=&quot;_blank&quot; title=&quot;Contact Link&quot; href=&quot;$value&quot;><i class=&quot;fa-sharp fa-regular fa-at&quot;></i></a>" />
+ 
+<t4 type="content" name="Calendar Link" output="selective-output" modifiers="" format="<!-- CALENDAR --><a target=&quot;_blank&quot; title=&quot;Calendar Link&quot; href=&quot;$value&quot;><i class=&quot;fa-sharp fa-calendar-days&quot;></i></a>" />
+
+<t4 type="content" name="News Link" output="selective-output" modifiers="striptags,htmlentities" format="<!-- NEWS --><a target=&quot;_blank&quot; href=&quot;$value&quot;><i class=&quot;fa-sharp fa-newspaper&quot; title=&quot;News Link&quot;></i></a>" />
+
+<t4 type="content" name="Blog Link" output="selective-output" format="<!-- BLOG --><a target=&quot;_blank&quot; href=&quot;$value&quot;><i class=&quot;fa-sharp fa-blog&quot; title=&quot;Blog Link&quot;></i></a>" />
+
+<t4 type="content" name="RSS Link" output="selective-output" format="<!-- RSS --><a target=&quot;_blank&quot; title=&quot;RSS Link&quot; href=&quot;$value&quot;><i class=&quot;fa-sharp fa-rss&quot;></i></a>" />
+
+----------------------------------------
+text/socialmediauniversal (archive)
+----------------------------------------
+Default 
+HTML/XML 
+T4 Standard Content 
+
+<!-- FACEBOOK --> 
+<t4 type="content" name="Facebook Link" output="selective-output" modifiers="" format="<a class=&quot;facebook&quot; target=&quot;_blank&quot; title=&quot;Facebook Link&quot; href=&quot;$value&quot;><i class=&quot;fa fa-facebook&quot;></i></a>" />
+
+<!-- X/TWITTER --> 
+<t4 type="content" name="X Link" output="selective-output" modifiers="" format="<a class=&quot;twitter&quot; target=&quot;_blank&quot; title=&quot;X Link&quot;href=&quot;$value&quot;><i class=&quot;fa fa-twitter&quot;></i></a>" />
+
+<!-- FLICKR --> 
+<t4 type="content" name="Flickr Link" output="selective-output" modifiers="" format="<a class=&quot;flickr&quot; target=&quot;_blank&quot; title=&quot;Flickr Link&quot;href=&quot;$value&quot;><i class=&quot;fa fa-flickr&quot;></i></a>" />
+
+<!-- LINKEDIN --> 
+<t4 type="content" name="Linkedin Link" output="selective-output" modifiers="" format="<a class=&quot;linkedin&quot; target=&quot;_blank&quot; title=&quot;LinkedIn Link&quot;href=&quot;$value&quot;><i class=&quot;fa fa-linkedin&quot;></i></a>" />
+
+
+<!-- Instagram --> 
+<t4 type="content" name="Instagram Link" output="selective-output" modifiers="" format="<a class=&quot;instagram&quot; target=&quot;_blank&quot; title=&quot;Instragram Link&quot;href=&quot;$value&quot;><i class=&quot;fa fa-instagram&quot;></i></a>" />
+ 
+
+<!-- Pinterest --> 
+<t4 type="content" name="Pinterest Link" output="selective-output" modifiers="" format="<a class=&quot;pinterest&quot; target=&quot;_blank&quot; title=&quot;Pinterest Link&quot;href=&quot;$value&quot;><i class=&quot;fa fa-pinterest&quot;></i></a>" />
+
+<!-- YOUTUBE --> 
+<t4 type="content" name="You Tube Link" output="selective-output" modifiers="" format="<a class=&quot;youtube&quot; target=&quot;_blank&quot; title=&quot;YouTube Link&quot;href=&quot;$value&quot;><i class=&quot;fa fa-youtube&quot;></i></a>" />
+
+ 
+<!-- Contact US --> 
+<t4 type="content" name="Website Link" output="selective-output" modifiers="" format="<a class=&quot;at&quot; target=&quot;_blank&quot; title=&quot;Contact Link&quot;href=&quot;$value&quot;><i class=&quot;fa fa-at&quot;></i></a>" />
+
+<!-- Calendar --> 
+<t4 type="content" name="Calendar Link" output="selective-output" modifiers="" format="<a class=&quot;calendar&quot; target=&quot;_blank&quot; title=&quot;Calendar Link&quot; href=&quot;$value&quot;><i class=&quot;fa fa-calendar&quot;></i></a>" />
+
+<!-- RSS --> 
+<t4 type="content" name="RSS Link" output="selective-output" modifiers="" format="<a class=&quot;rss&quot; target=&quot;_blank&quot; title=&quot;RSS Link&quot; href=&quot;$value&quot;><i class=&quot;fa fa-rss&quot;></i></a>" />
