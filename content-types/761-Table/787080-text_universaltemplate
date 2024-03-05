@@ -1,0 +1,22 @@
+Content Type: Table
+
+Content Layout Info:
+
+Name = text/universaltemplate (ID: 787080)
+File Extension = Default
+Syntax Type = HTML/XML
+Content Layout Processor = T4 Standard Content
+
+Content Layout Code:
+<section class="<t4 type="content" name="Background Color" output="normal" display_field="value" /> <t4 type="content" name="Select Table layout" output="normal" display_field="value" />>
+<t4 type="meta" meta="html_anchor" />
+	<div class="container <t4 type="content" name="Container Width" output="normal" display_field="value" />">
+      
+      <div class="grid-wrapper-min-max one-column">
+        <div class="grid-item">
+  			<t4 type="content" name="Table" output="normal" modifiers="medialibrary,nav_sections" />			        
+        </div>
+      </div>
+
+  </div>
+</section>

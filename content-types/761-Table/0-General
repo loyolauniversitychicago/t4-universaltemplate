@@ -1,0 +1,39 @@
+ID: 761
+Name: Table (T4 - DEV)
+Description:
+Minimum User Level: Contributor 
+Options: Enable in direct edit 
+
+-----------------
+Elements
+-----------------
+
+Name	
+The Name element	
+Plain Text	
+Max size
+80
+
+Select Table layout	
+Select Tables layout from the list	
+Select Box	
+Max size
+80 	
+
+Background Color	
+Select panel background color	
+Select Box	
+Max size
+80	
+
+Container Width	
+Select container width	
+Select Box	
+Max size
+80	
+
+Table	
+Enter the table structure	
+HTML	
+Max size
+99999	
