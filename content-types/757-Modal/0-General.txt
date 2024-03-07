@@ -2,7 +2,9 @@ ID: 757
 Name: Modal (T4 - DEV)
 Description: Adds content with text and image and a link to open a referenced content in a modal
 
+------------
 Elements:
+------------
 
 Name - The Name element, 80 Characters, Plain Text, Required
 Grid Layout - Select grid layout from the list, 80 Characters, Select Box, Required
@@ -19,7 +21,13 @@ Container Width (Modal) - Select container width for the content inside the moda
 Grid Layout (Modal) - Select grid layout from the list for the content inside the modal, 80 Characters, Select Box 
 Display as Card - Optional; check this box if you want your content to display as a media card, 80 Characters, Check Box 
 
-------
+-----------------
+Video Tutorials
+-----------------
+
+T4 How To: Adding A Modal Content Type to a page (links to a modal w/ page content only content)
+https://www.awesomescreenshot.com/video/25582530?key=35b0e56ad5821c80367949017faae956
+
 
 
 
