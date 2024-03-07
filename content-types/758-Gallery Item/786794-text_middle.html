@@ -1,0 +1,12 @@
+Name: text/middle
+File extension: Default
+Syntax Type: HTML/XML
+Content layout processor: T4 Standard Content 
+
+Content layout code:
+<div class="slide">
+    <div class="numbertext"></div>
+    <img data-lazy="<t4 type="content" name="Image" output="normal" formatter="path/*" />" alt="<t4 type="content" name="Image" output="normal" formatter="image/description"/>"/>
+    <div class="caption-overlay"></div>
+    <div class="caption"><t4 type="content" name="Caption" output="normal" modifiers="striptags,htmlentities" /></div>
+  </div>
