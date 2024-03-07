@@ -1,0 +1,28 @@
+Name: text/before
+File extension: Default
+Syntax Type: HTML/XML 
+Content layout processor: T4 Standard Content 
+
+Content layout code:
+
+<section id="panel-modaal-<t4 type="meta" meta="content_id" />" class="container-fluid<t4 type="content" name="Display as Card" output="selective-output" format=" modaal-card" /> <t4 type="content" name="Choose Panel Background Color" output="normal" display_field="value" />">
+  <t4 type="meta" meta="html_anchor" />
+  <div class="container <t4 type="content" name="Container Width" output="normal" display_field="value" />">
+    <div class="grid-wrapper-min-max<t4 type="content" name="Display as Card" output="selective-output" format=" card" /> <t4 type="content" name="Grid Layout" output="normal" display_field="value" />">
+      <t4 type="content" name="Image" output="selective-output" process-format="true" format="<div class=&quot;grid-item&quot;>
+        <img src=&quot;<t4 type=&quot;content&quot; name=&quot;Image&quot; output=&quot;normal&quot; formatter=&quot;path/*&quot; />&quot; alt=&quot;<t4 type='content' name='Image' output='normal' formatter='image/description'/>&quot;/>
+        <div class=&quot;caption&quot;>
+          <p><t4 type=&quot;content&quot; name=&quot;Image Caption&quot; output=&quot;normal&quot; modifiers=&quot;striptags,htmlentities&quot; /></p>
+        </div>
+      </div>" formatter="" />
+      <div class="grid-item<t4 type="content" name="Display as Card" output="selective-output" format=" content-grid-wrapper" />">
+        <t4 type="content" name="Label" output="selective-output" process-format="true" format="<h6><t4 type=&quot;content&quot; name=&quot;Label&quot; output=&quot;normal&quot; modifiers=&quot;striptags,htmlentities&quot; /></h6>" />
+        <h4><t4 type="content" name="Headline" output="normal" modifiers="striptags,htmlentities" /></h4>
+        <div class="introduction-paragraph">
+          <p><t4 type="content" name="Introduction" output="normal" modifiers="striptags,htmlentities" /></p>
+        </div>
+        <a class="modaal cta" href="#modaal-content-<t4 type="meta" meta="content_id" />" data-modaal-type="inline" data-modaal-animation="fade"><t4 type="content" name="Modal Link Text" output="normal" modifiers="striptags,htmlentities" /></a>
+      </div>
+    </div>
+  </div>
+</section>

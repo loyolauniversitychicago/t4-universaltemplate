@@ -1,0 +1,27 @@
+ID: 757
+Name: Modal (T4 - DEV)
+Description: Adds content with text and image and a link to open a referenced content in a modal
+
+Elements:
+
+Name - The Name element, 80 Characters, Plain Text, Required
+Grid Layout - Select grid layout from the list, 80 Characters, Select Box, Required
+Background Color - Select panel background color, 80 Characters, Select Box 
+Container Width - Select container width, 80 Characters, Select Box 
+Headline - Enter the headline for the modal, 80 Characters, Plain Text, Required
+Label - Enter the label for the modal, 80 Characters, Plain Text 
+Introduction - Enter the introduction for the modal, 250 Characters, Plain Text, Required
+Modal Link Text - Enter the modal CTA description	80 Characters	Plain Text	Yes
+Image - Select an image from the media library, 80 Kilobytes, Media 
+Image Caption - Enter the caption for the image, 80 Characters, Plain Text 
+Choose Content for Modal - Select child section or content, 80 Characters, Section/Content Link, Required
+Container Width (Modal) - Select container width for the content inside the modal, 80 Characters, Select Box 
+Grid Layout (Modal) - Select grid layout from the list for the content inside the modal, 80 Characters, Select Box 
+Display as Card - Optional; check this box if you want your content to display as a media card, 80 Characters, Check Box 
+
+------
+
+
+
+
+
