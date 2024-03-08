@@ -10,97 +10,25 @@ Options: Enable in direct edit
 Elements
 -----------------
 
-Name
-The name of the piece of content
-Plain Text	
-Max size 80
-
-Calendar Link
-Link to Calendar
-Plain Text	
-Max size 2000
-
-News Link
-Link to News
-Plain Text	
-Max size 2000
-
-RSS Link
-Link to RSS
-Plain Text	
-Max size 2000
-
-igNation Link
-Link to igNation; depreciated for Universal Template
-Plain Text	
-Max size 2000
-
-Facebook Link
-Link to Facebook
-Plain Text	
-Max size 2000
-
-X Link
-Description
-Link to X; formerly Twitter
-Plain Text	
-Max size 2000
-
-YouTube Link
-Link to YouTube
-Plain Text	
-Max size 2000
-
-Flickr Link
-Link to Flickr
-Plain Text	
-Max size 2000
-
-Linkedin Link
-Link to Linkedin
-Plain Text	
-Max size 2000
-
-Pinterest Link
-Link to Pinterest
-Plain Text	
-Max size 2000
-
-Instagram Link
-Link to Instagram
-Plain Text	
-Max size 2000
-
-Threads Link
-Link to Threads
-Plain Text	
-Max size 2000
-
-Blog Link
-Link to Blog
-Plain Text	
-Max size 2000
-
-GooglePlus Link
-Link to Google+; depreciated for Universal Template
-Plain Text	
-Max size 2000
-
-Website Link
-Description
-e.g. Title of the news article
-Plain Text	Max size
-2000
-
-Website Name
-e.g. Title of the news article
-Plain Text	
-Max size 2000
-
-Contact Link
-Link to Contact Page
-Plain Text	
-Max size 2000
+Name: The name of the piece of content, 80 Characters, Plain Text, required
+Blog Link: Link to Blog, 2000 Characters, Plain Text 
+Calendar Link: Link to Calendar, 2000 Characters, Plain Text 
+Contact Link: Link to Contact Page, 2000 Characters, Plain Text 
+Facebook Link: Link to Facebook, 2000 Characters, Plain Text 
+Flickr Link: Link to Flickr, 2000 Characters, Plain Text 
+GooglePlus Link: Link to Google+; depreciated for Universal Template, 2000 Characters, Plain Text 
+igNation Link: Link to igNation; depreciated for Universal Template, 2000 Characters, Plain Text 
+Instagram Link: Link to Instagram, 2000 Characters, Plain Text 
+Linkedin Link: Link to Linkedin, 2000 Characters, Plain Text 
+News Link: Link to News, 2000 Characters, Plain Text 
+Pinterest Link: Link to Pinterest, 2000 Characters, Plain Text 
+RSS Link: Link to RSS, 2000 Characters, Plain Text 
+Threads Link: Link to Threads, 2000 Characters, Plain Text 
+TikTok Link: Link to TikTok, 2000 Characters, Plain Text 
+Website Name: 2000 Characters, Plain Text 
+Website Link: 2000 Characters, Plain Text 
+X Link:	Link to X; formerly Twitter, 2000 Characters, Plain Text 
+YouTube Link: Link to YouTube, 2000 Characters, Plain Text 
 
 -----------------
 Content Layouts
