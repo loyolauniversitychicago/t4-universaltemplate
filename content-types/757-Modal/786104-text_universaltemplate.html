@@ -1,0 +1,350 @@
+Name: text/universaltemplate
+File extension: Default
+Syntax Type: Javascript
+Content layout processor: JavaScript Content 
+
+Content layout code:
+
+try {
+    var FullListOutputImports = JavaImporter(
+        com.terminalfour.publish.utils.TreeTraversalUtils,
+        com.terminalfour.spring.ApplicationContextProvider,
+        com.terminalfour.content.IContentManager,
+        com.terminalfour.version.Version,
+        com.terminalfour.publish.utils.BrokerUtils,
+        java.io.StringWriter,
+        com.terminalfour.utils.T4StreamWriter,
+        com.terminalfour.publish.ContentPublisher,
+        com.terminalfour.navigation.ServerSideLinkManager,
+        com.terminalfour.sitemanager.cache.CachedContent,
+        com.terminalfour.sitemanager.cache.utils.CSHelper
+    );
+    with(FullListOutputImports) {
+        var columnElements = ['Choose Content for Modal'];
+        var columnLayout = 'text/universaltemplate';
+        var type = 'both';
+        var htmlBeforeLayout = 'text/before';
+        var htmlAfterLayout = 'text/after';
+        var htmlBeforeColumnLayout = ['text/column-1-before'];
+        var htmlAfterColumnLayout = ['text/column-1-after'];
+
+        function getCachedSectionFromId(sectionID) {
+            if (typeof sectionID === 'undefined') {
+                return section
+            } else if (section.getID() == sectionID) {
+                return section
+            }
+            sectionID = Number(sectionID)
+            if (sectionID == 0) {
+                throw 'Passed Incorrect Section ID to getCachedSectionFromId'
+            }
+            return TreeTraversalUtils.findSection(
+                publishCache.getChannel(),
+                section,
+                sectionID,
+                language
+            )
+        }
+
+        function getContentManager() {
+            return ApplicationContextProvider.getBean(
+                IContentManager
+            )
+        }
+
+        function getCachedContentFromId(contentID, contentVersion) {
+            if (typeof contentID === 'undefined' && typeof contentVersion === 'undefined') {
+                return content
+            } else if (Number(contentID) <= 0 && typeof contentVersion !== 'undefined' && content !== null) {
+                contentID = content.getID();
+            } else {
+                contentID = Number(contentID);
+            }
+            if (content === null && contentID === 0) {
+                throw 'Passed Incorrect Content ID to getContentFromId'
+            }
+            var contentManager = getContentManager();
+            if (typeof contentVersion !== 'undefined') {
+                return contentManager.get(contentID, language, Version(contentVersion))
+            } else {
+                var version;
+                if (isPreview) {
+                    version = contentManager.get(contentID, language).version;
+                } else {
+                    version = contentManager.getLastApprovedVersion(contentID, language);
+                }
+                return contentManager.get(contentID, language, version);
+            }
+        }
+
+        function getContentTypeFromId(contentID) {
+            if (typeof contentID === 'undefined' || (Number(contentID) <= 0 && content !== null)) {
+                return content.getContentTypeID()
+            }
+            contentID = Number(contentID);
+            if (content !== null && contentID === 0) {
+                throw 'Passed Incorrect Content ID to getContentTypeFromId'
+            }
+            var contentManager = getContentManager();
+            return contentManager.getContentType(contentID)
+        }
+
+        function processT4Tags(t4tag, contentID, sectionID, forMediaFile) {
+            var cachedContent = content || null;
+            var cachedSection = section;
+            if (typeof sectionID !== 'undefined' && sectionID !== null && Number(sectionID) > 0) {
+                cachedSection = getCachedSectionFromId(sectionID);
+            }
+            if (contentID === null && sectionID !== null) {
+                cachedContent = null;
+            } else if (typeof contentID !== 'undefined' && Number(contentID) > 0) {
+                cachedContent = getCachedContentFromId(contentID);
+                if (cachedContent == null) {
+                    throw 'Could not get cachedContent';
+                }
+            }
+            if (cachedSection == null) {
+                throw 'Could not get cachedSection';
+            }
+            if (forMediaFile !== true) {
+                forMediaFile = false;
+            }
+            var renderedHtml = String(BrokerUtils.processT4Tags(dbStatement, publishCache, cachedSection, cachedContent, language, isPreview, t4tag));
+            if (forMediaFile) {
+                renderedHtml = renderedHtml.replace(/&/gi, '&');
+            }
+            return renderedHtml;
+        }
+
+        function getLayout(contentLayout, contentID, sectionID, displayError, forMediaFile) {
+            if (typeof contentLayout === 'undefined') {
+                throw 'getLayout: contentLayout is required for getLayout (' + contentLayout + ' of ' + content.getID() + ').';
+            }
+            if (contentLayout === '') {
+                return '';
+            }
+            if (forMediaFile !== true) {
+                forMediaFile = false;
+            }
+            var cachedSection = section;
+            var cachedContent = content;
+            if (typeof contentID !== 'undefined' && Number(contentID) > 0) {
+                if (typeof sectionID !== 'undefined' && Number(sectionID) > 0) {
+                    cachedSection = getCachedSectionFromId(sectionID);
+                } else {
+                    cachedSection = section;
+                }
+                cachedContent = getCachedContentFromId(contentID);
+                if (cachedSection == null || cachedContent == null) {
+                    throw 'getLayout: Getting the custom content and section was not possible';
+                }
+            } else {
+                contentID = content.getID();
+                if (typeof sectionID !== 'undefined' && Number(sectionID) > 0) {
+                    cachedSection = getCachedSectionFromId(sectionID);
+                } else {
+                    sectionID = section.getID();
+                }
+            }
+            var tid, format, formatString, renderedHtml;
+            tid = getContentTypeFromId(contentID)
+            format = publishCache.getTemplateFormatting(dbStatement, tid, contentLayout)
+            formatString = format.getFormatting()
+            processorType = format.getProcessor().getProcessorType()
+            if (String(processorType) !== 't4tag') {
+                try {
+                    var sw = new StringWriter()
+                    var t4w = new T4StreamWriter(sw)
+                    new ContentPublisher()
+                        .write(
+                            t4w,
+                            dbStatement,
+                            publishCache,
+                            cachedSection,
+                            cachedContent,
+                            contentLayout,
+                            isPreview
+                        )
+                    renderedHtml = sw.toString()
+                } catch (e) {
+                    if (typeof displayError === 'undefined') {
+                        displayError = true
+                    }
+                    if (displayError == true) {
+                        throw '(getLayout' +
+                            contentLayout +
+                            'of ' +
+                            contentID +
+                            ')' + e
+                    } else {
+                        renderedHtml = ''
+                    }
+                }
+            } else {
+                renderedHtml = processT4Tags(formatString, contentID, sectionID)
+            }
+            if (forMediaFile) {
+                renderedHtml = renderedHtml.replace(/&/gi, '&');
+            }
+            return renderedHtml
+        }
+
+        function getLinkFromSectionLinkElement(elementName) {
+            if (typeof elementName === 'undefined' && elementName === '') {
+                throw 'elementName is required.'
+            }
+            var mySSLManager = ServerSideLinkManager.getManager()
+            sectionElement = content.get(elementName)
+            if (sectionElement.getValue() !== null && sectionElement.getValue() != '') {
+                return mySSLManager.getLink(
+                    dbStatement.getConnection(),
+                    sectionElement.getValue(),
+                    section.getID(),
+                    content.getID(),
+                    language
+                )
+            } else {
+                return null
+            }
+        }
+
+        function getContentFromSection(excludeHidden, sectionID) {
+            cachedSection = section
+            if (typeof sectionID !== 'undefined' && Number(sectionID) > 0) {
+                cachedSection = getCachedSectionFromId(Number(sectionID))
+            }
+            if (typeof excludeHidden === 'undefined') {
+                excludeHidden = true
+            }
+            var mode = isPreview ?
+                CachedContent.CURRENT_IF_NO_DRAFT :
+                CachedContent.APPROVED
+            sectionContentAll = cachedSection.getContent(publishCache.getChannel(), language, mode, false)
+            if (excludeHidden === true) {
+                return CSHelper.extractCachedContent(
+                    CSHelper.removeSpecialContent(
+                        sectionContentAll
+                    )
+                )
+            } else {
+                return CSHelper.extractCachedContent(
+                    sectionContentAll
+                )
+            }
+        }
+
+        function getLayoutFromLink(columnElements, columnLayout, type, htmlBeforeLayout, htmlAfterLayout, htmlBeforeColumnLayout, htmlAfterColumnLayout) {
+            if (typeof columnElements === 'undefined') {
+                throw 'Please specify the element';
+            }
+            if (typeof columnLayout === 'undefined') {
+                columnLayout = 'text/universaltemplate';
+            }
+            if (typeof type === 'undefined') {
+                type = 'both';
+            } else if (type != 'section' && type != 'content') {
+                type = 'both';
+            } else {
+                type = String(type)
+            }
+            if (typeof htmlBeforeLayout === 'undefined') {
+                htmlBeforeLayout = '';
+            }
+            if (typeof htmlAfterLayout === 'undefined') {
+                htmlAfterLayout = '';
+            }
+            if (typeof htmlBeforeColumnLayout !== 'object') {
+                htmlBeforeColumnLayout = [];
+            }
+            if (typeof htmlAfterColumnLayout !== 'object') {
+                htmlAfterColumnLayout = [];
+            }
+            var html = '';
+            if (htmlBeforeLayout) {
+                html += getLayout(htmlBeforeLayout);
+            }
+            for (var i = 0; i < columnElements.length; i++) {
+                var columnHtml = '';
+                var getElementLink = getLinkFromSectionLinkElement(columnElements[i]);
+                if (getElementLink !== null) {
+                    if (getElementLink.toContentID > 0 && type != 'section') {
+                        columnHtml += getLayout(columnLayout, getElementLink.toContentID, getElementLink.toSectionID);
+                    } else if (getElementLink.toSectionID > 0 && type != 'content') {
+                        var sectionContent = getContentFromSection(true, getElementLink.toSectionID);
+                        for (var s = 0; s < sectionContent.length; s++) {
+                            columnHtml += getLayout(columnLayout, sectionContent[s].getID(), getElementLink.toSectionID, false);
+                        }
+                    } else {
+                        linkType = type === 'both' ? '' : type;
+                        throw 'You didn\'t select a valid ' + linkType + 'link for ' + columnElements[i];
+                    }
+                }
+                if (columnHtml != '') {
+                    if (htmlBeforeColumnLayout[i]) {
+                        columnHtml = getLayout(htmlBeforeColumnLayout[i]) + columnHtml;
+                    }
+                    if (htmlAfterColumnLayout[i]) {
+                        columnHtml += getLayout(htmlAfterColumnLayout[i]);
+                    }
+                }
+                html += columnHtml;
+            }
+            if (htmlAfterLayout) {
+                html += getLayout(htmlAfterLayout);
+            }
+            return html;
+        }
+        if (!(typeof htmlBeforeLayout === 'string' || htmlBeforeLayout instanceof String)) {
+            throw "htmlBeforeLayout must be a string"
+        }
+        if (!(typeof htmlAfterLayout === 'string' || htmlAfterLayout instanceof String)) {
+            throw "htmlAfterLayout must be a string"
+        }
+        if (!(typeof type === 'string' || type instanceof String)) {
+            throw "type must be a string"
+        }
+        if (typeof htmlBeforeColumnLayout !== 'undefined' && !Array.isArray(htmlBeforeColumnLayout)) {
+            throw "htmlBeforeColumnLayout must be an array"
+        }
+        if (typeof htmlBeforeColumnLayout === 'undefined') {
+            var htmlBeforeColumnLayout = [];
+        }
+        if (typeof htmlAfterColumnLayout !== 'undefined' && !Array.isArray(htmlAfterColumnLayout)) {
+            throw "htmlAfterColumnLayout must be an array"
+        }
+        if (typeof htmlAfterColumnLayout === 'undefined') {
+            var htmlAfterColumnLayout = [];
+        }
+        if (typeof columnElements !== 'undefined' && !Array.isArray(columnElements)) {
+            throw "columnElements must be an array"
+        }
+        if (typeof columnElements === 'undefined') {
+            var columnElements = [];
+        }
+        if (typeof columnLayout === 'undefined' || (typeof columnLayout !== 'undefined' && String(columnLayout) === '')) {
+            throw "columnLayout must be not empty"
+        }
+        if (typeof columnElements === 'undefined' || (typeof columnElements !== 'undefined' && String(columnElements) === '')) {
+            throw "columnElements must be not empty"
+        }
+        var html = getLayoutFromLink(columnElements, columnLayout, type, htmlBeforeLayout, htmlAfterLayout, htmlBeforeColumnLayout, htmlAfterColumnLayout)
+        document.write(html);
+        document.write('');
+    }
+} catch (err) {
+    var contentID = typeof content !== 'undefined' ? ' content ID: ' + content.getID() : '';
+    var sectionID = typeof section !== 'undefined' ? ' section ID: ' + section.getID() : '';
+    var message = 'Programmable Layout Error: ' + err + ' occurred in ' + contentID + sectionID + ')';
+    var outputImports = JavaImporter(
+        org.apache.commons.lang.StringEscapeUtils,
+        java.lang.System
+    );
+    with(outputImports) {
+        if (isPreview) {
+            document.write(message);
+        } else {
+            document.write('');
+        }
+        System.out.println(message);
+    }
+}

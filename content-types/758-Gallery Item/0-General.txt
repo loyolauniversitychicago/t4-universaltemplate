@@ -1,0 +1,19 @@
+ID: 758
+Name: Gallery Item
+Description: Each gallery item is a separate piece of content. For use with Universal Template Only.
+
+------------
+Elements:
+------------
+Name: The Name element, 80 Characters, Plain Text, Required
+Group Title: Set to start a new carousel, 80 Characters, Plain Text
+Image: Select an image from the media library, 80 Kilobytes, Media, Required
+Caption: Enter the caption for carousel slide, 500 Characters, Plain Text, Required
+
+
+-----------------
+Video Tutorials
+-----------------
+
+https://www.awesomescreenshot.com/video/25620075?key=0f0492637ab6bcd0bb30395473f7a900
+
