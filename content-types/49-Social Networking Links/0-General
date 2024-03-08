@@ -1,0 +1,133 @@
+Content Type Name: Social Networking Links (ID: 49)
+
+Description: Links for the Facebook, Twitter and other Social Networking Accounts.
+Minimum User Level: Contributor 
+Options: Enable in direct edit 
+
+-----------------
+Elements
+-----------------
+
+Name
+The name of the piece of content
+Plain Text	
+Max size 80
+
+Calendar Link
+Link to Calendar
+Plain Text	
+Max size
+2000
+
+News Link
+Link to News
+Plain Text	
+Max size
+2000
+
+RSS Link
+Link to RSS
+Plain Text	
+Max size
+2000
+
+igNation Link
+Link to igNation; depreciated for Universal Template
+Plain Text	
+Max size
+2000
+
+Facebook Link
+Link to Facebook
+Plain Text	
+Max size
+2000
+
+X Link
+Link to X; formerly Twitter
+Plain Text	
+Max size
+2000
+
+YouTube Link
+Link to YouTube
+Plain Text	
+Max size
+2000
+
+Flickr Link
+Link to Flickr
+Plain Text	
+Max size
+2000
+
+Linkedin Link
+Link to Linkedin
+Plain Text	
+Max size
+2000
+
+Pinterest Link
+Link to Pinterest
+Plain Text	
+Max size
+2000
+
+Instagram Link
+Link to Instagram
+Plain Text	
+Max size
+2000
+
+Threads Link
+Link to Threads
+Plain Text	
+Max size
+2000
+
+Blog Link
+Link to Blog
+Plain Text	
+Max size
+2000
+
+GooglePlus Link
+Link to Google+; depreciated for Universal Template
+Plain Text	
+Max size
+2000
+
+Website Link
+e.g. Title of the news article
+Plain Text	
+Max size
+2000
+
+Website Name
+e.g. Title of the news article
+Plain Text	
+Max size
+2000
+
+Contact Link
+Link to Contact Page
+Plain Text	
+Max size
+2000
+
+
+-----------------
+Content Layouts
+-----------------
+
+text/3col	
+text/home_footer	
+text/home_left	
+text/homeright	
+text/html	
+text/innerright	
+text/li	
+text/link	
+text/proshome	
+text/prosinterior	
+text/socialmediauniversal

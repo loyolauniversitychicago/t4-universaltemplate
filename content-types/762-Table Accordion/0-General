@@ -1,0 +1,119 @@
+ID: 762
+Name: Table Accordion (T4 - DEV)
+Description:
+Minimum User Level: Contributor 
+Options: Enable in direct edit 
+
+-----------------
+Elements
+-----------------
+
+Name	
+The Name element	
+Plain Text
+Max size
+80 	
+
+Group Title	
+Set to start a new Table	
+Plain Text
+Max size
+80 	
+
+Background Color	
+Select panel background color	
+Select Box
+Max size
+80 	
+
+Container Width	
+Select container width	
+Select Box
+Max size
+80 	
+
+Caption	
+Enter the table structure	
+Plain Text
+Max size
+250 	
+
+Table Header 1	
+Enter the table header	
+Plain Text
+Max size
+80 	
+
+Table Header 2	
+Enter the table header	
+Plain Text
+Max size
+80 	
+
+Table Header 3	
+Enter the table header	
+Plain Text
+Max size
+80 	
+
+Table Header 4	
+Enter the table header	
+Plain Text
+Max size
+80 	
+
+Table Header 5	
+Enter the table header	
+Plain Text
+Max size
+80 	
+
+Table Column 1	
+Enter the table column	
+Plain Text
+Max size
+80 	
+
+Table Column 2	
+Enter the table column	
+Plain Text
+Max size
+80 	
+
+Table Column 3	
+Enter the table column	
+Plain Text
+Max size
+80 	
+
+Table Column 4	
+Enter the table column	
+Plain Text
+Max size
+80 	
+
+Table Column 5	
+Enter the table column	
+Plain Text
+Max size
+80 	
+
+Table Row Header	
+Enter the table row header	
+Plain Text
+Max size
+80 	
+
+Accordion Panel Content	
+Enter accordion panel content	
+HTML
+Max size
+
+-----------------
+Content Layouts
+-----------------
+
+text/after	
+text/before	
+text/middle	
+text/universaltemplate

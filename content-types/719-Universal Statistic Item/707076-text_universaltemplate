@@ -1,0 +1,29 @@
+Content Type: Panel Divider
+
+Content Layout Info:
+
+Name = text/universaltemplate (ID: 707076)
+File Extension = Default
+Syntax Type = HTML/XML
+Content Layout Processor = T4 Standard Content
+
+Content Layout Code:
+<t4 type="content" name="Mark as First Statistic Item" output="selective-output" format="<section id=&quot;panel-numbers&quot; class=&quot;container-fluid" /><t4 type="content" name="Background Color" output="selective-output" format=" " /><t4 type="content" name="Background Color" output="normal" display_field="value" /><t4 type="content" name="Background Image" output="selective-output" format=" bg-overlay&quot; style=&quot;background-image: url(" /><t4 type="content" name="Background Image" output="normal" formatter="path/*" /><t4 type="content" name="Background Image" output="selective-output" format=");" /><t4 type="content" name="Mark as First Statistic Item" output="selective-output" format="&quot;><div class=&quot;container-fluid&quot;><div class=&quot;container " /><t4 type="content" name="Container Width" output="normal" display_field="value" /><t4 type="content" name="Mark as First Statistic Item" output="selective-output" format="&quot;>" />
+<t4 type="content" name="Mark as First Statistic Item" output="selective-output" format="<div class=&quot;grid-wrapper-min-max" /> <t4 type="content" name="Number of Columns" output="normal" display_field="value" /> <t4 type="content" name="Mark as First Statistic Item" output="selective-output" format="number" /> <t4 type="content" name="Number Text Size" output="normal" display_field="value" /> <t4 type="content" name="Column Width" output="normal" display_field="value" /> <t4 type="content" name="Column Margin" output="normal" display_field="value" /> <t4 type="content" name="Row Margin" output="normal" display_field="value" /><t4 type="content" name="Mark as First Statistic Item" output="selective-output" format="&quot;>" />
+
+<div class="grid-item">
+  <div class="content-grid-wrapper">
+    <div class="flex-item content">
+      <t4 type="content" name="Title" output="selective-output" format="<h4>$value</h4>" />
+      <t4 type="content" name="Readout" output="selective-output" format="<h5>$value</h5>" />
+      <div class="explainer">
+        <t4 type="content" name="External Link for CTA" output="selective-output" format="<a class=&quot;cta&quot; href=&quot;$value&quot;>" /><t4 type="content" name="Section Link for CTA" output="selective-output" modifiers="nav_sections" format="<a class=&quot;cta&quot; href=&quot;" /><t4 type="content" name="Section Link for CTA" output="linkurl" modifiers="nav_sections" /><t4 type="content" name="Section Link for CTA" output="selective-output" modifiers="nav_sections" format="&quot;>" /><t4 type="content" name="CTA Link Text" output="selective-output" format="$value" /><t4 type="content" name="Section Link for CTA" output="selective-output" modifiers="nav_sections" format="</a>" /><t4 type="content" name="External Link for CTA" output="selective-output" format="</a>" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<t4 type="content" name="Mark as Last Statistic Item" output="selective-output" format="</div>
+</div>
+</div>
+</section>" />

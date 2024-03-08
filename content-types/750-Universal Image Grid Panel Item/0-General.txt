@@ -1,9 +1,6 @@
 Content Type Name: Universal Image Grid Panel Item (ID: 750)
-
 Description: Works with Universal Image Grid Panel for Universal Template 2021
-
 Minimum User Level: Contributor 
-
 Options: Enable in direct edit 
 
 -----------------

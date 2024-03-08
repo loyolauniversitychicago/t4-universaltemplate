@@ -1,0 +1,363 @@
+ID: 759
+Name: Tabs
+Description: Single content with up to 6 tabs; For Use with Universal Template Only
+Minimum User Level: Contributor 
+Options: Enable in direct edit 
+
+-----------------
+Elements
+-----------------
+
+Name	
+The Name element
+Plain Text
+Max Size
+80	
+
+Choose Tab Layout	
+Select Tabs design from the list
+Select Box	
+Max Size
+80 	
+
+Background Color	
+Select panel background color	
+Select Box
+Max Size
+80 	
+
+Container Width	
+Select container width	
+Select Box
+Max Size
+80 	
+
+Tab 1 Title	
+Enter the title for the tab	
+Plain Text
+Max Size
+50 	
+
+Tab 1 Grid Layout	
+Select grid layout for tabs panel	
+Select Box
+Max Size
+80 	
+
+Tab 1 Image	
+Select an image from the media library	
+Media
+Max Size
+80 Kilobytes	
+
+Tab 1 Header	
+Enter header for the tab	
+Plain Text
+Max Size
+80 	
+
+Tab 1 Description	
+Enter description for the tab	
+Plain Text
+Max Size
+1000 	
+
+Tab 1 CTA Text	
+Enter the link for the tab	
+Plain Text
+Max Size
+80 	
+
+Tab 1 CTA Internal Link
+Select a section/content for an internal link	
+Section/Content Link
+Max Size
+80 	
+
+Tab 1 CTA External Link	
+Only enter this if you are NOT entering an internal link	
+Plain Text
+Max Size
+200 	
+
+Tab 1 CTA Media (PDF)	
+Select an media file from the media library	
+Media
+Max Size
+80 Kilobytes	
+
+Tab 2 Title	
+Enter the title for the tab	
+Plain Text
+Max Size
+50 	
+
+Tab 2 Grid Layout	
+Select grid layout for tabs panel	
+Select Box
+Max Size
+80 	
+
+Tab 2 Image	
+Select an image from the media library	
+Media
+Max Size
+80 Kilobytes	
+
+Tab 2 Header	
+Enter header for the tab	
+Plain Text
+Max Size
+80 	
+
+Tab 2 Description	
+Enter description for the tab	
+Plain Text
+Max Size
+1000 	
+
+Tab 2 CTA Text	
+Enter the link for the tab	
+Plain Text
+Max Size
+80 	
+
+Tab 2 CTA Internal Link
+Select a section/content for an internal link	
+Section/Content Link
+Max Size
+80 	
+
+Tab 2 CTA External Link	
+Only enter this if you are NOT entering an internal link	
+Plain Text
+Max Size
+200 	
+
+Tab 2 CTA Media (PDF)	
+Select an media file from the media library	
+Media
+Max Size
+80 Kilobytes
+
+Tab 3 Title	
+Enter the title for the tab	
+Plain Text
+Max Size
+50 	
+
+Tab 3 Grid Layout	
+Select grid layout for tabs panel	
+Select Box
+Max Size
+80 	
+
+Tab 3 Image	
+Select an image from the media library	
+Media
+Max Size
+80 Kilobytes	
+
+Tab 3 Header	
+Enter header for the tab	
+Plain Text
+Max Size
+80 	
+
+Tab 3 Description	
+Enter description for the tab	
+Plain Text
+Max Size
+1000 	
+
+Tab 3 CTA Text	
+Enter the link for the tab	
+Plain Text
+Max Size
+80 	
+
+Tab 3 CTA Internal Link
+Select a section/content for an internal link	
+Section/Content Link
+Max Size
+80 	
+
+Tab 3 CTA External Link	
+Only enter this if you are NOT entering an internal link	
+Plain Text
+Max Size
+200 	
+
+Tab 3 CTA Media (PDF)	
+Select an media file from the media library	
+Media
+Max Size
+80 Kilobytes
+
+Tab 4 Title	
+Enter the title for the tab	
+Plain Text
+Max Size
+50 	
+
+Tab 4 Grid Layout	
+Select grid layout for tabs panel	
+Select Box
+Max Size
+80 	
+
+Tab 4 Image	
+Select an image from the media library	
+Media
+Max Size
+80 Kilobytes	
+
+Tab 4 Header	
+Enter header for the tab	
+Plain Text
+Max Size
+80 	
+
+Tab 4 Description	
+Enter description for the tab	
+Plain Text
+Max Size
+1000 	
+
+Tab 4 CTA Text	
+Enter the link for the tab	
+Plain Text
+Max Size
+80 	
+
+Tab 4 CTA Internal Link
+Select a section/content for an internal link	
+Section/Content Link
+Max Size
+80 	
+
+Tab 4 CTA External Link	
+Only enter this if you are NOT entering an internal link	
+Plain Text
+Max Size
+200 	
+
+Tab 4 CTA Media (PDF)	
+Select an media file from the media library	
+Media
+Max Size
+80 Kilobytes
+
+Tab 5 Title	
+Enter the title for the tab	
+Plain Text
+Max Size
+50 	
+
+Tab 5 Grid Layout	
+Select grid layout for tabs panel	
+Select Box
+Max Size
+80 	
+
+Tab 5 Image	
+Select an image from the media library	
+Media
+Max Size
+80 Kilobytes	
+
+Tab 5 Header	
+Enter header for the tab	
+Plain Text
+Max Size
+80 	
+
+Tab 5 Description	
+Enter description for the tab	
+Plain Text
+Max Size
+1000 	
+
+Tab 5 CTA Text	
+Enter the link for the tab	
+Plain Text
+Max Size
+80 	
+
+Tab 5 CTA Internal Link
+Select a section/content for an internal link	
+Section/Content Link
+Max Size
+80 	
+
+Tab 5 CTA External Link	
+Only enter this if you are NOT entering an internal link	
+Plain Text
+Max Size
+200 	
+
+Tab 5 CTA Media (PDF)	
+Select an media file from the media library	
+Media
+Max Size
+80 Kilobytes
+
+Tab 6 Title	
+Enter the title for the tab	
+Plain Text
+Max Size
+50 	
+
+Tab 6 Grid Layout	
+Select grid layout for tabs panel	
+Select Box
+Max Size
+80 	
+
+Tab 6 Image	
+Select an image from the media library	
+Media
+Max Size
+80 Kilobytes	
+
+Tab 6 Header	
+Enter header for the tab	
+Plain Text
+Max Size
+80 	
+
+Tab 6 Description	
+Enter description for the tab	
+Plain Text
+Max Size
+1000 	
+
+Tab 6 CTA Text	
+Enter the link for the tab	
+Plain Text
+Max Size
+80 	
+
+Tab 6 CTA Internal Link
+Select a section/content for an internal link	
+Section/Content Link
+Max Size
+80 	
+
+Tab 6 CTA External Link	
+Only enter this if you are NOT entering an internal link	
+Plain Text
+Max Size
+200 	
+
+Tab 6 CTA Media (PDF)	
+Select an media file from the media library	
+Media
+Max Size
+80 Kilobytes
+
+-----------------
+Content Layouts
+-----------------
+
+text/universaltemplate	

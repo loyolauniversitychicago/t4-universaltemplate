@@ -1,0 +1,41 @@
+Content Type: Social Media Links
+
+Content Layout Info:
+
+Name = text/home_footer (ID: 59067)
+File Extension = Default
+Syntax Type = HTML/XML
+Content Layout Processor = T4 Standard Content
+
+Content Layout Code:
+<ul class="social" id="social">
+
+    <!-- FACEBOOK -->   
+    <t4 type="content" name="Facebook Link" output="selective-output" modifiers="" process-format="true" format="<li><a target=&quot;_blank&quot; rel=&quot;noreferrer&quot; href=&quot;" /><t4 type="content" name="Facebook Link" output="normal" modifiers="htmlentities"  /><t4 type="content" name="Facebook Link" output="selective-output" modifiers="" process-format="true" format="&quot;  class='icon-fb' target=&quot;_self&quot; title=&quot;Follow Us on Facebook&quot;></a></li>" />
+    
+    <!-- X/TWITTER --> 
+    <t4 type="content" name="X Link" output="selective-output" modifiers="" process-format="true" format="<li><a target=&quot;_blank&quot; rel=&quot;noreferrer&quot; href=&quot;" /><t4 type="content" name="X Link" output="normal" modifiers="htmlentities"  /><t4 type="content" name="X Link" output="selective-output" modifiers="" process-format="true" format="&quot; class='icon-tw' target=&quot;_self&quot; title=&quot;Follow Us on X&quot;></a></li>" />
+    
+    <!-- FLICKR --> 
+    <t4 type="content" name="Flickr Link" output="selective-output" modifiers="" process-format="true" format="<li><a target=&quot;_blank&quot; rel=&quot;noreferrer&quot; href=&quot;" /><t4 type="content" name="Flickr Link" output="normal" modifiers="htmlentities"  /><t4 type="content" name="Flickr Link" output="selective-output" modifiers="" process-format="true" format="&quot;   class='icon-fl' target=&quot;_self&quot; title=&quot;Follow Us on Flickr&quot;></a></li>" />
+    
+    <!-- LINKEDIN --> 
+    <t4 type="content" name="Linkedin Link" output="selective-output" modifiers="" process-format="true" format="<li><a target=&quot;_blank&quot; rel=&quot;noreferrer&quot; href=&quot;" /><t4 type="content" name="Linkedin Link" output="normal" modifiers="htmlentities"  /><t4 type="content" name="Linkedin Link" output="selective-output" modifiers="" process-format="true" format="&quot; class='icon-li' target=&quot;_self&quot; title=&quot;Follow Us on LinkedIn&quot;></a></li>" />
+    
+    <!-- RSS LINK --> 
+    <t4 type="content" name="RSS Link" output="selective-output" modifiers="" process-format="true" format="<li><a target=&quot;_blank&quot; rel=&quot;noreferrer&quot; href=&quot;" /><t4 type="content" name="RSS Link" output="normal" modifiers="htmlentities"  /><t4 type="content" name="RSS Link" output="selective-output" modifiers="" process-format="true" format="&quot;  class='icon-rss' target=&quot;_self&quot; title=&quot;Follow our RSS Feed&quot;></a></li>" />
+    
+     
+    <!-- YOUTUBE --> 
+    <t4 type="content" name="You Tube Link" output="selective-output" modifiers="" process-format="true" format="<li><a target=&quot;_blank&quot; rel=&quot;noreferrer&quot; href=&quot;" /><t4 type="content" name="You Tube Link" output="normal" modifiers="htmlentities"  /><t4 type="content" name="You Tube Link" output="selective-output" modifiers="" process-format="true" format="&quot;   class='icon-yt' target=&quot;_self&quot; title=&quot;Follow Us on You Tube&quot;></a></li>" />
+    
+    <!-- PINTEREST --> 
+    <t4 type="content" name="Pinterest Link" output="selective-output" modifiers="" process-format="true" format="<li><a target=&quot;_blank&quot; rel=&quot;noreferrer&quot; href=&quot;" /><t4 type="content" name="Pinterest Link" output="normal" modifiers="htmlentities"  /><t4 type="content" name="Pinterest Link" output="selective-output" modifiers="" process-format="true" format="&quot;   class='icon-pin' target=&quot;_self&quot; title=&quot;Follow Us on Pinterest&quot;></a></li>" /> 
+    
+    <!-- INSTAGRAM --> 
+    <t4 type="content" name="Instagram Link" output="selective-output" modifiers="" process-format="true" format="<li><a target=&quot;_blank&quot; rel=&quot;noreferrer&quot; href=&quot;" /><t4 type="content" name="Instagram Link" output="normal" modifiers="htmlentities"  /><t4 type="content" name="Instagram Link" output="selective-output" modifiers="" process-format="true" format="&quot;   class='icon-instagram' target=&quot;_self&quot; title=&quot;Follow Us on Instagram&quot;></a></li>" />
+    
+    <!-- GOOGLE+ --> 
+    <t4 type="content" name="GooglePlus Link" output="selective-output" modifiers="" process-format="true" format="<li><a target=&quot;_blank&quot; rel=&quot;noreferrer&quot; href=&quot;" /><t4 type="content" name="GooglePlus Link" output="normal" modifiers="htmlentities"  /><t4 type="content" name="GooglePlus Link" output="selective-output" modifiers="" process-format="true" format="&quot;   class='icon-google' target=&quot;_self&quot; title=&quot;Follow Us on Google&quot;></a></li>" />
+    
+    </ul>
